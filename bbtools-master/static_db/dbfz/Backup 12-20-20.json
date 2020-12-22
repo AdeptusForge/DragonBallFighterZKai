@@ -1178,11 +1178,11 @@
  "445": {
   "size": 40
  },
- "446": {
-   "name": "ActivateEffScript",
-   "format": "32si",
-   "size": 40
- },
+  "446": {
+    "name": "ActivateEffScript",
+    "format": "32si",
+    "size": 40
+  },
  "448": {
   "format": "32si",
   "size": 40
@@ -2237,10 +2237,9 @@
   "size": 36
  },
  "1102": {
-   "name": "grHitPushbackX"
-   "format": "i",
-   "size": 8
-  },
+  "format": "i",
+  "size": 8
+ },
  "1103": {
   "format": "i",
   "size": 8
@@ -3576,7 +3575,7 @@
  },
  "1638": {
   "format": "32s",
-  "name": "cancel_onhitorblock_",
+  "name": "cancel_onhit_",
   "size": 36
  },
  "1639": {
