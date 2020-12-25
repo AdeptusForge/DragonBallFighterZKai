@@ -151,8 +151,9 @@
   "size": 48
  },
  "34": {
-  "size": 40
- },
+  "format": "i32s",
+  "size": 4
+  },
  "35": {
   "size": 40
  },
@@ -1708,6 +1709,7 @@
    "size": 8
   },
  "818": {
+  "name":  "hitstun_Override",
   "format": "i",
   "size": 8
  },
@@ -1722,6 +1724,7 @@
   "size": 4
  },
  "830": {
+  "name": "untech_Override",
   "format": "i",
   "size": 8
  },
@@ -1781,6 +1784,7 @@
   "size": 4
  },
  "882": {
+  "name": "or_standhit",
   "format": "i",
   "size": 8
  },
@@ -1800,6 +1804,7 @@
   "size": 8
  },
  "894": {
+  "name": "or_launchhit",
   "format": "i",
   "size": 8
  },
@@ -1943,10 +1948,12 @@
   "size": 8
  },
  "995": {
+  "name": "mod_hitstop",
   "format": "i",
   "size": 8
  },
  "996": {
+  "name": "mod_opphitstop",
   "size": 16,
   "format": "iii"
  },
@@ -3205,8 +3212,8 @@
   "size": 36
  },
  "1408": {
-  "format": "i",
-  "size": 8
+  "format": "",
+  "size": 4
  },
  "1409": {
   "name": "move_register",
@@ -5654,8 +5661,8 @@
    "size": 32
  },
  "2379": {
-   "format": "i",
-   "size": 40
+   "format": "ii",
+   "size": 32
  },
  "2382": {
   "format": "i",
@@ -5798,7 +5805,7 @@
   "size": 4
  },
  "2472": {
-  "size": 4
+  "size": 8
  },
  "2474": {
   "format": "i",
