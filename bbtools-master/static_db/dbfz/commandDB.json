@@ -1990,6 +1990,7 @@
   "size": 8
  },
  "1023": {
+  "name": "blockstun_override",
   "format": "i",
   "size": 8
  },
@@ -3036,6 +3037,22 @@
   "size": 8
  },
  "1306": {
+   "format": "i",
+   "size": 8
+ },
+ "1307": {
+  "format": "i",
+  "size": 8
+ },
+ "1308": {
+  "format": "i",
+  "size": 8
+ },
+ "1309": {
+  "format": "i",
+  "size": 8
+ },
+ "1310": {
   "format": "i",
   "size": 8
  },
