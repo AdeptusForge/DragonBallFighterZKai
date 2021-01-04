@@ -1,0 +1,51 @@
+1-2 	Fast 'Fast' Normal
+3	Average 'Fast' Normal
+4-6	Slow 'Fast' Normal
+
+Types of pressure a move can put on an opponent:
+Range-based
+Frametrap
+Being positive
+Meaty
+Counterhit bait
+Being a low/being an overhead.
+Anti-Air
+Fake negative
+Visual trick
+Variable timing
+
+
+General Notes
+Speed and damage-ability HEAVILY affect how dangerous a move can be/is. Ken's c.MK wouldn't be half the move it is if not for the fact that it can combo into solid damage or a knockdown. Twelves moves would be far scarier if they each did significantly more damage. Safety is also a factor to consider, as how punishable a move is will drastically change its usefulness.
+
+
+Range-Based Notes
+Its all about the area they cover and how those ranges can be played around.
+Range based things become far deadlier if they are Sword normals, or if they act as anti-airs as well. Consider not only the space itself, but also the common ways the opponent would use that space.
+
+Frametrap notes
+1 frame difference: Can be beaten by backdash if the attacker in question doesn't have a move at least as long as SSJ Goku's c.L at point blank.
+2 frame difference: can be beaten by backdash if the attacker in question doesn't have a move long enough to catch (distance needs testing)
+3+ frame difference: Can be beaten by backdash in most cases. Only a hard read or a commitment to a move that ends pressure can punish a backdash here. This is a large enough gap that faster normals can beat it out in general, meaning it becomes a matchup specific situation.
+
+Being positive Notes
+Being positive is strong, very strong, but it is not the be-all end-all of pressure. Being positive only works if you are in the space to utilize it, and in the space to actually make strong mixup off of it. Being positive in most cases means a continuation of pressure, not the ability to open up your opponent.
+
+Meaty Notes
+Meaty setups depend entirely on what options the opponent has to counter them. They serve to beat out wakeup buttons, but lose to other options by their very nature. Be wary of meaty mixups though, as these are the most powerful against characters with few options to challenge them, and carry a lot of power as the opponent must hold them. Most meaty's in Kai will be fairly strong given that reflect is now only a guardcancel option rather than a move that can be done on wakeup.
+
+Counterhit Bait Notes
+Counterhit baiting needs to be considered carefully for each move in a characters arsenal. Consider as many possible setups as you can, but also know that most counterhit situations are matchup dependent, and learning them severely diminishes their power in most cases.
+
+Anti-Air Notes
+Anti-airs, like any range-based pressure, is all in how much space that move can cover. If you only have a fast move that only protects you from one angle of attack, then it cannot protect you against any other angle, regardless of how good the move is in other circumstances. Keep in mind that this modifies a move's usefulness, and should rarely be the sole purpose of a move.
+
+Fake Negative Notes
+A form of stealing turns, this is where you use a move or set of moves in such a way as to appear more punishable than it actually is, thus acting as a form of counterhit baiting by different means. Moves with different frame data that look similar are great contenders for such forms of pressure, though spacing or even cancel options can be used to create Fake negative pressure.
+
+Visual Trick Notes
+This is a form of mixup or turn-stealing that involves using multiple moves that appear similar to each other to bait out a poor reaction from the opponent. This can be anything from a 50/50, to a move with multiple similar versions that all have different data, to moves that have similar startup that all end in different ways.
+
+Variable Timing Notes
+These are mixups that force out immediate reactions from the opponent, but require specific timing to be countered properly. Such counters will be punished, in whole or in part, if that timing is failed. these usually fall into a subset of counterhit bait scenarios, but try to find ways in which you can create variable timing mixups without being solely counterhit bait.
+

@@ -1,0 +1,9 @@
+Self canceling normals
+Ki blasts not canceling to Heavy's
+Edited knockdown durations
+Limiting groundbounces/smashes/wallbounces
+Creating knockdowns without using DSmash property
+Guardcanceling reflect instead of doing it raw
+Limiting superdash usage
+Limiting vanish usage
+Figure out how grabs work
