@@ -1,0 +1,5 @@
+cd C:\Users\Steffen\Desktop\DragonBallFighterZKai\bbtools-master
+
+python dbfz_script_parser.py G:\Modding\DBFZ\DBFZ_orig_dump\RED\Content\Chara\XXX\Common\Data\BBS_XXX.uexp
+
+python dbfz_script_rebuilder.py G:\Modding\DBFZ\DBFZ_parsed_edited\FirstMainTest\BBS_XXX.uexp.py XXX.dbzscript

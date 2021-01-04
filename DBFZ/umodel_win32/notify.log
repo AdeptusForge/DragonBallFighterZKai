@@ -1,0 +1,927 @@
+ERROR: Memory: bad allocation size -686999576 bytes
+appMalloc:size=-686999576 (total=74 Mbytes) <- FArray::Empty:658577918 x 12 <- FPackageFileSummary::Serialize4 <- FPackageFileSummary<<:Ver=0/0 <- UnPackage::UnPackage:/Engine/BasicShapes/BasicShapeMaterial.uasset, ver=508/0, game=ue4.14 <- UnPackage::LoadPackage:/Engine/BasicShapes/BasicShapeMaterial.uasset <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog:modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main:umodel_build=1180
+
+ERROR: Package "/Engine/BasicShapes/BasicShapeMaterial.uasset": wrong name index -5
+UnPackage::SerializeFName:pos=00000ACB <- FObjectExport::Serialize4 <- UnPackage::LoadExportTable <- UnPackage::UnPackage:/Engine/BasicShapes/BasicShapeMaterial.uasset, ver=510/0, game=ue4.15 <- UnPackage::LoadPackage:/Engine/BasicShapes/BasicShapeMaterial.uasset <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog:modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main:umodel_build=1180
+
+
+******** Loading object StaticMesh4'Cone.Cone' ********
+
+ERROR: Memory: bad allocation size 1326325186 bytes
+appMalloc:size=1326325186 (total=212 Mbytes) <- FArray::Empty:1326325186 x 1 <- TArray::SerializeSimple <- FDistanceFieldVolumeData<< <- PostLODCode <- UStaticMesh4::Serialize <- LoadObject:StaticMesh4'Cone.Cone', pos=5EAB, ver=518/0 (unversioned), game=ue4.24 <- UObject::EndLoad <- LoadWholePackage:Cone <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog:modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main:umodel_build=1180
+
+
+******** Loading object StaticMesh4'Cone.Cone' ********
+
+ERROR: Memory: bad allocation size 1326325186 bytes
+appMalloc:size=1326325186 (total=73 Mbytes) <- FArray::Empty:1326325186 x 1 <- TArray::SerializeSimple <- FDistanceFieldVolumeData<< <- PostLODCode <- UStaticMesh4::Serialize <- LoadObject:StaticMesh4'Cone.Cone', pos=5EAB, ver=518/0 (unversioned), game=ue4.24 <- UObject::EndLoad <- LoadWholePackage:Cone <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog:modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main:umodel_build=1180
+
+
+******** Loading object Texture2D'cmn_pattern01.cmn_pattern01' ********
+
+ERROR: assertion failed: SkipOffsetH == 0
+
+UTexture2D::Serialize4 <- UTexture2D::Serialize <- LoadObject:Texture2D'cmn_pattern01.cmn_pattern01', pos=3F5, ver=518/0 (unversioned), game=ue4.24 <- UObject::EndLoad <- LoadWholePackage:vtb_816_Pattern_inst <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog:modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main:umodel_build=1180
+
+
+******** Loading object StaticMesh4'Cone.Cone' ********
+
+ERROR: Memory: bad allocation size 1326325186 bytes
+appMalloc:size=1326325186 (total=72 Mbytes) <- FArray::Empty:1326325186 x 1 <- TArray::SerializeSimple <- FDistanceFieldVolumeData<< <- PostLODCode <- UStaticMesh4::Serialize <- LoadObject:StaticMesh4'Cone.Cone', pos=5EAB, ver=518/0 (unversioned), game=ue4.24 <- UObject::EndLoad <- LoadWholePackage:Cone <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog:modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main:umodel_build=1180
+
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'cp_sparking_eff_MTR.cp_sparking_eff_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_00_MTR.vs_effect_00_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_00_MTR.vs_effect_00_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_02_MTR.vs_effect_02_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_03_MTR.vs_effect_03_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_04_MTR.vs_effect_04_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_05_MTR.vs_effect_05_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_06_MTR.vs_effect_06_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_07_MTR.vs_effect_07_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_08_MTR.vs_effect_08_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_00_MTR.vs_plate_medal_eff_00_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_01_MTR.vs_plate_medal_eff_01_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_02_MTR.vs_plate_medal_eff_02_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_03_MTR.vs_plate_medal_eff_03_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_04_MTR.vs_plate_medal_eff_04_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'VS_plate_medal_eff_05_MTR.vs_plate_medal_eff_05_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'M_CharaDecal.M_CharaDecal' ********
+
+unknown member BLEND_X2Multiply of enum EBlendMode
+
+******** Loading object Material3'cp_sparking_eff_MTR.cp_sparking_eff_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_00_MTR.vs_effect_00_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_00_MTR.vs_effect_00_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_02_MTR.vs_effect_02_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_03_MTR.vs_effect_03_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_04_MTR.vs_effect_04_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_05_MTR.vs_effect_05_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_06_MTR.vs_effect_06_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_07_MTR.vs_effect_07_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_effect_08_MTR.vs_effect_08_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_00_MTR.vs_plate_medal_eff_00_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_01_MTR.vs_plate_medal_eff_01_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_02_MTR.vs_plate_medal_eff_02_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_03_MTR.vs_plate_medal_eff_03_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'vs_plate_medal_eff_04_MTR.vs_plate_medal_eff_04_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode
+
+******** Loading object Material3'VS_plate_medal_eff_05_MTR.vs_plate_medal_eff_05_MTR' ********
+
+unknown member BLEND_AdditiveForUI of enum EBlendMode

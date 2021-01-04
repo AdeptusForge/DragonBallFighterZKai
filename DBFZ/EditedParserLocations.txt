@@ -1,0 +1,40 @@
+1435 - something to do with B and C assists in the moveregister
+1869 - a part of vegito blue's grounded spirit sword
+810 - a part of vegito blue's atomic buster command grab
+808 - a part of vegito blue's atomic buster command grab
+2379 - a part of vegito blue's zamasu dramatic finisher
+1085 - A part of Goku Blue's Level 3 super. (parser spacing issue located nearby, possibly caused by this)
+2524 - 
+914 -
+1695 -
+1868 -
+1017 -
+1871 -
+1870 -
+306 -
+719 -
+947 -
+948 -
+949 -
+1872 -
+893 -
+1436 -
+2263 -
+672 - 
+673 - Needs more tuning. Master Roshi Requires it, but I didn't finish working with it.
+1000 -
+307 -
+1210 -
+1211 -
+1712 - Fixed a Rebuilder Error
+
+
+
+1087 - Majin Buu's Effect Script
+1408 - Super Goku problems
+34 - Size reduction: No effect
+
+
+
+
+632 - Might need more tweaking

@@ -1,0 +1,90 @@
+	Functions
+Unknown32 - Likely also affects particle systems, similar to InstantiateParticleEff
+Unknown612 - Likely deals with instantiating 3D "slash effects" that aren't particle based.
+
+
+Unknown830, 882, 894, 842, 790, 902, 937, and 995 - Used in wallbounces and/or "wallslides" 
+
+Unknown1657, 1658 - Prevents chain cancels on hit/or whiff, not sure which is which.
+
+enableWhiffCancel() - turns on or off the ability to whiff cancel moves. 1 turns on, 0 turns off. Due to the wide buffer system, this feels like a wider window than it usually is. Used in conjunction with other functions, because even when on you can't whiff cancel into special moves or other gatling moves.
+
+cancel_onhitorblock_() - turns on or off the ability to cancel on hit or block.
+
+ChangeAtkDirection(i) - Overrides whether a move would otherwise hit mid, low, or overhead. For i,0 is Mid, 1 is Overhead and 2 is low. Every attack comes with built in atkDirection, so we'll likely have to override everything to make this work. Place inside Upon_Immediate() for best results. 
+
+storeValue(w,x,y,z) - 
+W is
+X is the SLOT_# to store it in.
+Y is
+Z is the value to store in the slot.
+
+Sprite - loads the next frame of animation, the duration the animation stays that way, and advances the function clock by that many frames for that character's animation. Essentially, when this is called, act as if the animation moved forward that many frames. Everything beneath them before the next Sprite call happens on that frame. If duration is longer than 1 and there's additional code, it will begin on the first frame and continue to be active for all frames.
+
+damage1 - Overrides damage value of what the attack would usually be when called during another state/subroutine.
+
+airHitPushbackX(or Y) - overrides air pushback value of what the attack would usually be when called during another state/subroutine.
+
+makeActive - turns on hitboxes, or reactivates already triggered hitboxes, beginning from the last sprite call.
+beginRecovery - turns off hitboxes.
+
+
+physicsImpulseX(or Y) - overrides character normal movement in order to move the given character in specific directions. Positive is up and forward(relative) respectively.
+
+Unknown3 - Likely has to do with state changes, looping, or animations ending
+Unknown2077 - Likely Activates Camera Shake at that frame, and for that number of frames afterwords.
+Unknown717 - Another function that camera shakes(on hit only?)
+
+Unknown1662 - Likely allows for cancels that wouldn't otherwise be possible to occur or some other factor when it comes to those moves.
+Unknown448 - Likely Activates wind effect for all BG stage props affected by it.
+
+move_input() - probably used inside of RoundInit to distinguish required inputs.
+	69 	I think is crouching on ground
+	68 	I think is Crouching in Air
+	77	I think is standing
+	22	I think is Heavy
+	13	I think is Medium
+	4	I think is Light
+	31	I think is Special
+	172	I think is QCF
+	174	I think is QCB
+	63	Might be required for KMHA angling
+	141	Might be required for KMHA angling
+	273	Might be required for KMHA angling
+	147	Might be required for KMHA angling
+Move_state() - Likely the required state the character must be in to use the move in question
+	1	I think is Grounded
+	3	I think is in Air
+
+	Subroutines
+'cmnSpecialAttackExInit' - Likely pulls meter from character when they start an EX move. Common, so it's also likely stored somewhere besides the character files.
+
+'cmnRendaChain_Clear_Idling' - Probably ends the gatling string as if you had returned to idle.
+
+	Misc
+Attacks that are considered a certain state have their level and most of their statistics wrapped up 
+into "callSuboutine(cmn****ATTACKNAMEHERE****_atkInit)", giving them standard state properties.
+
+storeValue(2,46,0,1) - likely prevents more than one smash attack per combo
+storeValue(2,3,0,1) - likely prevents more than one groundbounce per combo
+
+upon_43() - seems to be upon being hit by the opponent.
+upon_89() - seems to check if a smash attack/cinematic attack is available.
+upon_90() - has something to do with autocombo renda followups. For instance, cell being able to super by just pressing Y at the end of a medium autocombo
+upon_49() - either if you have a downward hard smash available, or for light air autocombo stuff. Likely the former.
+upon_8() - Likely meaning on air hit/block
+
+mikiwame move - Vanish?
+
+Slot_45 - Sparking?
+
+Piccolo's beam has no distinct level to my knowledge and has the same hitstun and blockstun, meaning it either increases in blockstun or in hitstun
+Adult Gohan Lightning legs have a large discrepancy between hitstun and blockstun. Likely reduced blockstun, but look into it regardless
+Goku Black J.S might have what we're looking for
+Android21 j.S might have what we're looking for
+Cooler's s.S has some discrepancies with hitstun and blockstun
+Goku Black's Slicer Dance super might have what we need.
+Any Crumple state move (UI/Master Roshi) will likely work as replacement for what we need.
+GT Goku Medium/Heavy QCF might hold the key (its a hitgrab tho)
+Tien's Telekinesis might hold the key
+Android 16's hell heat assist too.
