@@ -3739,7 +3739,7 @@
   "format": "ii"
  },
  "1674": {
-  "name": "cancel_autocombo",
+  "name": "cancel_autocombo_",
   "format": "32s",
   "size": 36
  },
