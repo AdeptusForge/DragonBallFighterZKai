@@ -921,6 +921,7 @@
   "size": 8
  },
  "292": {
+  "name": "meterspend_override",
   "format": "i",
   "size": 8
  },
@@ -2209,6 +2210,7 @@
   "size": 8
  },
  "1092": {
+  "name": "initialscaling_override",
   "format": "i",
   "size": 8
  },
@@ -2310,6 +2312,7 @@
   "size": 8
  },
  "1117": {
+  "name": "meterbuild_override",
   "format": "i",
   "size": 8
  },
@@ -4040,6 +4043,7 @@
   "size": 8
  },
  "1824": {
+  "name": "landing_override",
   "size": 12,
   "format": "ii"
  },
@@ -5423,6 +5427,10 @@
  "2289": {
   "size": 12
  },
+ "2291": {
+  "format": "i",
+  "size": 8
+ },
  "2292": {
   "format": "i",
   "size": 8
@@ -5436,6 +5444,10 @@
   "size": 8
  },
  "2295": {
+  "format": "i",
+  "size": 8
+  },
+ "2297": {
   "format": "i",
   "size": 8
  },

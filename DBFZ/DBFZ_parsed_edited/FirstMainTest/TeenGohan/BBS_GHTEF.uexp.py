@@ -586,6 +586,7 @@ def crouchkidan_explosion():
         untech_Override(30)
         Unknown1023(22)
         Unknown1045('04000000636d6e5f426f6d48697400000000000000000000000000000000000000000000')
+        blockstun_override(10)
         if Unknown2033(3, 'AssistAttack2'):
             Unknown1143(0)
             mod_opphitstop(0, 9, 9)

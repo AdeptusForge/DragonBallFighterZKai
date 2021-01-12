@@ -4739,18 +4739,6 @@ Module(
                                                 args=[Num(n=1)],
                                                 keywords=[],
                                                 starargs=None,
-                                                kwargs=None)),
-                                        Expr(
-                                            value=Call(func=Name(id='Unknown449'),
-                                                args=[Str(s='cmn_RushStart'), Num(n=103)],
-                                                keywords=[],
-                                                starargs=None,
-                                                kwargs=None)),
-                                        Expr(
-                                            value=Call(func=Name(id='Unknown612'),
-                                                args=[Str(s='ARC_BTL_CMN_DrgnRush_Start')],
-                                                keywords=[],
-                                                starargs=None,
                                                 kwargs=None))],
                                     orelse=[]),
                                 If(test=Compare(left=Name(id='SLOT_105'), ops=[Eq], comparators=[Num(n=18)]),
@@ -4765,34 +4753,11 @@ Module(
                                                         kwargs=None))],
                                             orelse=[]),
                                         Expr(
-                                            value=Call(func=Name(id='physicsImpulseX'),
-                                                args=[Num(n=90000)],
-                                                keywords=[],
-                                                starargs=None,
-                                                kwargs=None)),
-                                        Expr(
                                             value=Call(func=Name(id='Unknown2229'),
                                                 args=[Num(n=90)],
                                                 keywords=[],
                                                 starargs=None,
-                                                kwargs=None)),
-                                        If(
-                                            test=Call(func=Name(id='conditionalunk2499'),
-                                                args=[Num(n=32), Num(n=2), Num(n=318)],
-                                                keywords=[],
-                                                starargs=None,
-                                                kwargs=None),
-                                            body=[
-                                                If(test=Name(id='SLOT_214'),
-                                                    body=[
-                                                        Expr(
-                                                            value=Call(func=Name(id='physicsImpulseX'),
-                                                                args=[Num(n=130000)],
-                                                                keywords=[],
-                                                                starargs=None,
-                                                                kwargs=None))],
-                                                    orelse=[])],
-                                            orelse=[])],
+                                                kwargs=None))],
                                     orelse=[]),
                                 If(test=Compare(left=Name(id='SLOT_105'), ops=[Eq], comparators=[Num(n=27)]),
                                     body=[
@@ -4872,18 +4837,6 @@ Module(
                                                 args=[Num(n=1)],
                                                 keywords=[],
                                                 starargs=None,
-                                                kwargs=None)),
-                                        Expr(
-                                            value=Call(func=Name(id='Unknown449'),
-                                                args=[Str(s='cmn_RushStart'), Num(n=103)],
-                                                keywords=[],
-                                                starargs=None,
-                                                kwargs=None)),
-                                        Expr(
-                                            value=Call(func=Name(id='Unknown612'),
-                                                args=[Str(s='ARC_BTL_CMN_DrgnRush_Start')],
-                                                keywords=[],
-                                                starargs=None,
                                                 kwargs=None))],
                                     orelse=[]),
                                 If(test=Compare(left=Name(id='SLOT_105'), ops=[Eq], comparators=[Num(n=18)]),
@@ -4897,12 +4850,6 @@ Module(
                                                         starargs=None,
                                                         kwargs=None))],
                                             orelse=[]),
-                                        Expr(
-                                            value=Call(func=Name(id='physicsImpulseX'),
-                                                args=[Num(n=90000)],
-                                                keywords=[],
-                                                starargs=None,
-                                                kwargs=None)),
                                         Expr(
                                             value=Call(func=Name(id='Unknown2229'),
                                                 args=[Num(n=90)],
@@ -4956,16 +4903,7 @@ Module(
                                                 args=[Num(n=70)],
                                                 keywords=[],
                                                 starargs=None,
-                                                kwargs=None)),
-                                        If(test=Compare(left=Name(id='SLOT_18'), ops=[Lt], comparators=[Num(n=4001)]),
-                                            body=[
-                                                Expr(
-                                                    value=Call(func=Name(id='physicsImpulseY'),
-                                                        args=[Num(n=0)],
-                                                        keywords=[],
-                                                        starargs=None,
-                                                        kwargs=None))],
-                                            orelse=[])],
+                                                kwargs=None))],
                                     orelse=[]),
                                 If(test=Compare(left=Name(id='SLOT_105'), ops=[Eq], comparators=[Num(n=31)]),
                                     body=[
@@ -5010,24 +4948,9 @@ Module(
                                                 args=[],
                                                 keywords=[],
                                                 starargs=None,
-                                                kwargs=None))],
-                                    orelse=[]),
-                                If(test=Compare(left=Name(id='SLOT_45'), ops=[Eq], comparators=[Num(n=1)]),
-                                    body=[
-                                        Expr(
-                                            value=Call(func=Name(id='physicsImpulseY'),
-                                                args=[Num(n=-20000)],
-                                                keywords=[],
-                                                starargs=None,
                                                 kwargs=None)),
                                         If(test=Compare(left=Name(id='SLOT_35'), ops=[GtE], comparators=[Num(n=0)]),
                                             body=[
-                                                Expr(
-                                                    value=Call(func=Name(id='physicsImpulseY'),
-                                                        args=[Num(n=0)],
-                                                        keywords=[],
-                                                        starargs=None,
-                                                        kwargs=None)),
                                                 Expr(
                                                     value=Call(func=Name(id='storeValue'),
                                                         args=[Num(n=2), Num(n=45), Num(n=0), Num(n=0)],
@@ -5047,20 +4970,8 @@ Module(
                                     orelse=[]),
                                 If(test=Compare(left=Name(id='SLOT_45'), ops=[Eq], comparators=[Num(n=2)]),
                                     body=[
-                                        Expr(
-                                            value=Call(func=Name(id='physicsImpulseY'),
-                                                args=[Num(n=20000)],
-                                                keywords=[],
-                                                starargs=None,
-                                                kwargs=None)),
                                         If(test=Compare(left=Name(id='SLOT_35'), ops=[LtE], comparators=[Num(n=0)]),
                                             body=[
-                                                Expr(
-                                                    value=Call(func=Name(id='physicsImpulseY'),
-                                                        args=[Num(n=0)],
-                                                        keywords=[],
-                                                        starargs=None,
-                                                        kwargs=None)),
                                                 Expr(
                                                     value=Call(func=Name(id='storeValue'),
                                                         args=[Num(n=2), Num(n=45), Num(n=0), Num(n=0)],
@@ -9643,7 +9554,7 @@ Module(
             args=arguments(args=[], vararg=None, kwarg=None, defaults=[]),
             body=[
                 Expr(
-                    value=Call(func=Name(id='cancel_autocombo'),
+                    value=Call(func=Name(id='cancel_autocombo_'),
                         args=[Str(s='CmnActHomingDash')],
                         keywords=[],
                         starargs=None,
@@ -10808,7 +10719,7 @@ Module(
                                                 kwargs=None),
                                             body=[
                                                 Expr(
-                                                    value=Call(func=Name(id='cancel_autocombo'),
+                                                    value=Call(func=Name(id='cancel_autocombo_'),
                                                         args=[Str(s='NmlAtkAir5B')],
                                                         keywords=[],
                                                         starargs=None,
@@ -10876,7 +10787,7 @@ Module(
                                 starargs=None,
                                 kwargs=None)),
                         Expr(
-                            value=Call(func=Name(id='cancel_autocombo'),
+                            value=Call(func=Name(id='cancel_autocombo_'),
                                 args=[Str(s='NmlAtkAir5C')],
                                 keywords=[],
                                 starargs=None,

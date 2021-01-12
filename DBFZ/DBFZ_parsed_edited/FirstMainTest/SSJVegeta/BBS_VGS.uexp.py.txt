@@ -11437,13 +11437,7 @@ Module(
                     body=[
                         Expr(
                             value=Call(func=Name(id='callSubroutine'),
-                                args=[Str(s='cmnNmlAtk5C_AtkInit')],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='callSubroutine'),
-                                args=[Str(s='cmnNmlAtk5C_Init')],
+                                args=[Str(s='cmnAtkLevel_3_AtkInit')],
                                 keywords=[],
                                 starargs=None,
                                 kwargs=None)),
@@ -11697,19 +11691,19 @@ Module(
                     body=[
                         Expr(
                             value=Call(func=Name(id='callSubroutine'),
-                                args=[Str(s='cmnNmlAtk2C_AtkInit')],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='callSubroutine'),
-                                args=[Str(s='cmnNmlAtk2C_Init')],
+                                args=[Str(s='cmnAtkLevel_3_AtkInit')],
                                 keywords=[],
                                 starargs=None,
                                 kwargs=None)),
                         Expr(
                             value=Call(func=Name(id='airHitPushbackX'),
                                 args=[Num(n=12000)],
+                                keywords=[],
+                                starargs=None,
+                                kwargs=None)),
+                        Expr(
+                            value=Call(func=Name(id='airHitPushbackY'),
+                                args=[Num(n=30000)],
                                 keywords=[],
                                 starargs=None,
                                 kwargs=None)),
@@ -16865,6 +16859,12 @@ Module(
                         Expr(
                             value=Call(func=Name(id='airHitPushbackY'),
                                 args=[Num(n=40000)],
+                                keywords=[],
+                                starargs=None,
+                                kwargs=None)),
+                        Expr(
+                            value=Call(func=Name(id='ChangeAtkDir'),
+                                args=[Num(n=3)],
                                 keywords=[],
                                 starargs=None,
                                 kwargs=None)),

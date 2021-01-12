@@ -2444,42 +2444,6 @@ Module(
                                 starargs=None,
                                 kwargs=None)),
                         Expr(
-                            value=Call(func=Name(id='Unknown1662'),
-                                args=[Str(s='CmnVAirJump'), Num(n=10)],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='Unknown1662'),
-                                args=[Str(s='CmnBAirJump'), Num(n=10)],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='Unknown1662'),
-                                args=[Str(s='CmnFAirJump'), Num(n=10)],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='Unknown1662'),
-                                args=[Str(s='CmnFAirDash'), Num(n=10)],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='Unknown1662'),
-                                args=[Str(s='CmnFAirDash'), Num(n=10)],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='Unknown1652'),
-                                args=[Num(n=1)],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
                             value=Call(func=Name(id='damage1'),
                                 args=[Num(n=700)],
                                 keywords=[],
@@ -2531,6 +2495,12 @@ Module(
                             value=Call(func=Name(id='Unknown1045'),
                                 args=[
                                     Str(s='04000000636d6e5f426f6d48697400000000000000000000000000000000000000000000')],
+                                keywords=[],
+                                starargs=None,
+                                kwargs=None)),
+                        Expr(
+                            value=Call(func=Name(id='blockstun_override'),
+                                args=[Num(n=10)],
                                 keywords=[],
                                 starargs=None,
                                 kwargs=None)),

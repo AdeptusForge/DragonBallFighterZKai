@@ -288,7 +288,7 @@ def cmn_SkillInit():
     move_endregister()
     move_register('RequestAssistAttack2')
     Unknown1405(27)
-    move_state(01)
+    move_state(1)
     move_input(128)
     move_input(298)
     move_alias('ZAttack2')
@@ -1612,19 +1612,13 @@ def cmnAtkRushStartInit():
         Unknown1040(1)
 
         def upon_3():
-            if (SLOT_105 == 6):
+            if (SLOT_105 == 3):
                 Unknown176(1)
-                Unknown449('cmn_RushStart', 103)
-                Unknown612('ARC_BTL_CMN_DrgnRush_Start')
-            if (SLOT_105 == 18):
+            if (SLOT_105 == 3):
                 if (not SLOT_288):
                     makeActive()
-                physicsImpulseX(90000)
                 Unknown2229(90)
-                if conditionalunk2499(32, 2, 318):
-                    if SLOT_214:
-                        physicsImpulseX(130000)
-            if (SLOT_105 == 27):
+            if (SLOT_105 == 5):
                 beginRecovery()
                 storeValue(2, 45, 0, 0)
                 Unknown2229(75)
@@ -1639,27 +1633,23 @@ def cmnAtkRushStartInit():
         Unknown2168(0)
 
         def upon_3():
-            if (SLOT_105 == 6):
+            if (SLOT_105 == 3):
                 Unknown176(1)
-                Unknown449('cmn_RushStart', 103)
-                Unknown612('ARC_BTL_CMN_DrgnRush_Start')
-            if (SLOT_105 == 18):
+            if (SLOT_105 == 3):
                 if (not SLOT_288):
                     makeActive()
-                physicsImpulseX(90000)
                 Unknown2229(90)
                 Unknown2230(80)
                 if (SLOT_35 <= 0):
                     storeValue(2, 45, 0, 1)
                 else:
                     storeValue(2, 45, 0, 2)
-            if (SLOT_105 == 27):
+            if (SLOT_105 == 5):
                 beginRecovery()
                 storeValue(2, 45, 0, 0)
                 Unknown2229(75)
                 Unknown2230(70)
-                if (SLOT_18 < 4001):
-                    physicsImpulseY(0)
+
             if (SLOT_105 == 31):
                 Unknown2169(1)
                 Unknown2170(1)
@@ -1668,17 +1658,13 @@ def cmnAtkRushStartInit():
                 Unknown99(1)
                 Unknown176(1)
                 Unknown135()
-            if (SLOT_45 == 1):
-                physicsImpulseY(-20000)
                 if (SLOT_35 >= 0):
-                    physicsImpulseY(0)
+
                     storeValue(2, 45, 0, 0)
                 if (SLOT_18 < 20001):
                     Unknown98(20000)
             if (SLOT_45 == 2):
-                physicsImpulseY(20000)
                 if (SLOT_35 <= 0):
-                    physicsImpulseY(0)
                     storeValue(2, 45, 0, 0)
             if (not SLOT_16):
                 beginRecovery()
@@ -2748,7 +2734,7 @@ def cmnNmlAtk5A2nd_Init():
 
 @Subroutine
 def cmnNmlAtk5A3rd_Init():
-    cancel_autocombo('CmnActHomingDash')
+    cancel_autocombo_('CmnActHomingDash')
 
     def upon_89():
         Unknown23(89)
@@ -3007,7 +2993,7 @@ def cmnNmlAtkAir5A_Init():
             if (not 
             Unknown2030('NmlAtkAir5A')):
                 if conditionalunk2499(32, 2, 318):
-                    cancel_autocombo('NmlAtkAir5B')
+                    cancel_autocombo_('NmlAtkAir5B')
     callSubroutine('cmnAir_F_NO_STOP_IDLING')
 
 @Subroutine
@@ -3022,7 +3008,7 @@ def cmnNmlAtkAir5B_Init():
         cancel_onhitorblock_('CmnActFAirDash2Button')
     if SLOT_249:
         Unknown1658('NmlAtkAir5A')
-        cancel_autocombo('NmlAtkAir5C')
+        cancel_autocombo_('NmlAtkAir5C')
         Unknown240()
         Unknown135()
         if Unknown53(3, 2, 0, 32, 2, 18):

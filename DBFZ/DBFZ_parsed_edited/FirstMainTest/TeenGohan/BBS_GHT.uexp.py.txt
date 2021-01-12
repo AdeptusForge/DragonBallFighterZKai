@@ -10979,12 +10979,6 @@ Module(
                 Expr(
                     value=Call(func=Name(id='Unknown2229'), args=[Num(n=90)], keywords=[], starargs=None, kwargs=None)),
                 Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=10), Num(n=1)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
                     value=Call(func=Name(id='Unknown448'),
                         args=[Str(s='bg_jump_default'), Num(n=100)],
                         keywords=[],
@@ -11098,12 +11092,6 @@ Module(
                         Expr(
                             value=Call(func=Name(id='Unknown2121'),
                                 args=[Str(s='46696e69736843616d6572615f4e4b616d6568616d6568610000000000000000')],
-                                keywords=[],
-                                starargs=None,
-                                kwargs=None)),
-                        Expr(
-                            value=Call(func=Name(id='Unknown292'),
-                                args=[Num(n=10000)],
                                 keywords=[],
                                 starargs=None,
                                 kwargs=None))],
@@ -11897,12 +11885,6 @@ Module(
                 Expr(value=Call(func=Name(id='Unknown135'), args=[], keywords=[], starargs=None, kwargs=None)),
                 Expr(
                     value=Call(func=Name(id='Unknown2229'), args=[Num(n=90)], keywords=[], starargs=None, kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=10), Num(n=1)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
                 Expr(
                     value=Call(func=Name(id='sprite'),
                         args=[Str(s='ght201_04'), Num(n=2)],
@@ -13632,12 +13614,6 @@ Module(
                         starargs=None,
                         kwargs=None)),
                 Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=6), Num(n=1)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
                     value=Call(func=Name(id='sprite'),
                         args=[Str(s='ght233_03'), Num(n=2)],
                         keywords=[],
@@ -13692,12 +13668,6 @@ Module(
                 Expr(
                     value=Call(func=Name(id='Unknown2229'), args=[Num(n=90)], keywords=[], starargs=None, kwargs=None)),
                 Expr(value=Call(func=Name(id='Unknown135'), args=[], keywords=[], starargs=None, kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=6), Num(n=1)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
                 Expr(
                     value=Call(func=Name(id='sprite'),
                         args=[Str(s='ght233_07'), Num(n=2)],
@@ -13792,43 +13762,7 @@ Module(
                         kwargs=None)),
                 Expr(
                     value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_17'), Num(n=2)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_18'), Num(n=2)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_19'), Num(n=2)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_20'), Num(n=2)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_21'), Num(n=2)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_22'), Num(n=2)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_23'), Num(n=1)],
+                        args=[Str(s='ght233_17'), Num(n=1)],
                         keywords=[],
                         starargs=None,
                         kwargs=None))],
@@ -14670,12 +14604,6 @@ Module(
                         starargs=None,
                         kwargs=None)),
                 Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=5), Num(n=1)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
                     value=Call(func=Name(id='sprite'),
                         args=[Str(s='ght265_03'), Num(n=2)],
                         keywords=[],
@@ -15474,7 +15402,7 @@ Module(
                     decorator_list=[]),
                 Expr(
                     value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_07'), Num(n=2)],
+                        args=[Str(s='ght233_07'), Num(n=4)],
                         keywords=[],
                         starargs=None,
                         kwargs=None)),
@@ -15482,7 +15410,7 @@ Module(
                 Expr(value=Call(func=Name(id='Unknown1700'), args=[Num(n=4)], keywords=[], starargs=None, kwargs=None)),
                 Expr(
                     value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_08'), Num(n=2)],
+                        args=[Str(s='ght233_08'), Num(n=4)],
                         keywords=[],
                         starargs=None,
                         kwargs=None)),
@@ -15510,14 +15438,14 @@ Module(
                     orelse=[]),
                 Expr(
                     value=Call(func=Name(id='physicsImpulseY'),
-                        args=[Num(n=30000)],
+                        args=[Num(n=5000)],
                         keywords=[],
                         starargs=None,
                         kwargs=None)),
                 Expr(value=Call(func=Name(id='Unknown135'), args=[], keywords=[], starargs=None, kwargs=None)),
                 Expr(
                     value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_09'), Num(n=2)],
+                        args=[Str(s='ght233_09'), Num(n=3)],
                         keywords=[],
                         starargs=None,
                         kwargs=None)),
@@ -15530,12 +15458,6 @@ Module(
                 Expr(
                     value=Call(func=Name(id='Unknown615'),
                         args=[Str(s='ARC_BTL_GHT_NmtnKame_Chrg')],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=6), Num(n=1)],
                         keywords=[],
                         starargs=None,
                         kwargs=None)),
@@ -15611,43 +15533,7 @@ Module(
                         kwargs=None)),
                 Expr(
                     value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_17'), Num(n=3)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_18'), Num(n=3)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_19'), Num(n=3)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_20'), Num(n=3)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_21'), Num(n=3)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_22'), Num(n=3)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
-                    value=Call(func=Name(id='sprite'),
-                        args=[Str(s='ght233_23'), Num(n=3)],
+                        args=[Str(s='ght233_17'), Num(n=1)],
                         keywords=[],
                         starargs=None,
                         kwargs=None))],
@@ -21781,12 +21667,6 @@ Module(
                         starargs=None,
                         kwargs=None)),
                 Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=8), Num(n=1)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
                     value=Call(func=Name(id='sprite'),
                         args=[Str(s='ght400_08'), Num(n=2)],
                         keywords=[],
@@ -22196,12 +22076,6 @@ Module(
                         starargs=None,
                         kwargs=None)),
                 Expr(
-                    value=Call(func=Name(id='Unknown1824'),
-                        args=[Num(n=8), Num(n=1)],
-                        keywords=[],
-                        starargs=None,
-                        kwargs=None)),
-                Expr(
                     value=Call(func=Name(id='sprite'),
                         args=[Str(s='ght400_08'), Num(n=2)],
                         keywords=[],
@@ -22359,7 +22233,7 @@ Module(
                                 kwargs=None)),
                         Expr(
                             value=Call(func=Name(id='untech_Override'),
-                                args=[Num(n=42)],
+                                args=[Num(n=55)],
                                 keywords=[],
                                 starargs=None,
                                 kwargs=None)),

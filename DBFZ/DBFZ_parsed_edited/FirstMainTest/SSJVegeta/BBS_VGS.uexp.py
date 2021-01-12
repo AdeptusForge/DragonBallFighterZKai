@@ -2491,7 +2491,7 @@ def NmlAtk2C():
     def upon_IMMEDIATE():
         callSubroutine('cmnAtkLevel_3_AtkInit')
         airHitPushbackX(12000)
-		airHitPushbackY(30000)
+        airHitPushbackY(30000)
 
         def upon_49():
             if Unknown2041('CameraCombo_2C'):
@@ -3580,6 +3580,7 @@ def CrusherKneeKick_A():
         or_launchhit(9)
         airHitPushbackX(12000)
         airHitPushbackY(40000)
+        ChangeAtkDir(3)
         untech_Override(40)
         Unknown1108(40)
         Unknown1023(11)
