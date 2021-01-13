@@ -1612,13 +1612,13 @@ def cmnAtkRushStartInit():
         Unknown1040(1)
 
         def upon_3():
-            if (SLOT_105 == 3):
+            if (SLOT_105 == 6):
                 Unknown176(1)
-            if (SLOT_105 == 3):
+            if (SLOT_105 == 18):
                 if (not SLOT_288):
                     makeActive()
                 Unknown2229(90)
-            if (SLOT_105 == 5):
+            if (SLOT_105 == 27):
                 beginRecovery()
                 storeValue(2, 45, 0, 0)
                 Unknown2229(75)
@@ -1633,9 +1633,9 @@ def cmnAtkRushStartInit():
         Unknown2168(0)
 
         def upon_3():
-            if (SLOT_105 == 3):
+            if (SLOT_105 == 6):
                 Unknown176(1)
-            if (SLOT_105 == 3):
+            if (SLOT_105 == 18):
                 if (not SLOT_288):
                     makeActive()
                 Unknown2229(90)
@@ -1644,7 +1644,7 @@ def cmnAtkRushStartInit():
                     storeValue(2, 45, 0, 1)
                 else:
                     storeValue(2, 45, 0, 2)
-            if (SLOT_105 == 5):
+            if (SLOT_105 == 27):
                 beginRecovery()
                 storeValue(2, 45, 0, 0)
                 Unknown2229(75)
