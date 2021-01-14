@@ -301,7 +301,7 @@ def parse_dbscript(f,basename,dirname):
         f.seek(BASE+4+0x24*FUNCTION_COUNT+FUNCTION_OFFSET)
         parse_bbscript_routine(f)
     '''
-    mypath = "G:\Modding\DBFZ\DBFZ_parsed_dump"
+    mypath = "C:\Users\Adept\Desktop\DBFZKai\DragonBallFighterZKai\DBFZ\dbfz_parsed_dump"
     py = open(os.path.join(mypath, basename) + ".py","w")
     py.write(astor.to_source(astRoot))
     py.close()
