@@ -2506,12 +2506,13 @@ def ZAttack2():
 
     def upon_IMMEDIATE():
         callSubroutine('cmnAtkLevel_3_AtkInit')
-		grHitPushbackX(400)
-        if SLOT_16:
-            def upon_95():
-                Unknown2077('ShakeTateYoko', 1000, 0, 18, 1)
-                Unknown2040(23, 'CameraCombo_5A3rd', 0)
-                
+        def upon_89():
+            grHitPushbackX(400)
+            if SLOT_16:
+                def upon_95():
+                    Unknown2077('ShakeTateYoko', 1000, 0, 18, 1)
+                    Unknown2040(23, 'CameraCombo_5A3rd', 0)
+            endIf()
         Unknown1023(18)
         or_launchhit(11)
         or_standhit(0)
@@ -2553,18 +2554,19 @@ def AirZAttack2():
 
     def upon_IMMEDIATE():
         callSubroutine('cmnAtkLevel_3_AtkInit')
+        def upon_89():
+            grHitPushbackX(400)
+            if SLOT_16:
+                def upon_95():
+                    Unknown2077('ShakeTateYoko', 1000, 0, 18, 1)
+                    Unknown2040(23, 'CameraCombo_5A3rd', 0)
+            endIf()
         Unknown1023(18)
         or_launchhit(11)
         or_standhit(0)
-        grHitPushbackX(400)
         mod_opphitstop(0,25,25)
         airHitPushbackX(50000)
         Unknown717('ShakeTate', 500, 1, 20, 0)
-        if SLOT_16:
-            def upon_95():
-                Unknown2077('ShakeTateYoko', 1000, 0, 18, 1)
-                Unknown2040(23, 'CameraCombo_5A3rd', 0)
-
         def upon_49():
             if Unknown2041('CameraCombo_5A3rd'):
                 Unknown1067(4, 200000, 10000)
