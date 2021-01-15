@@ -1,4 +1,4 @@
-﻿Log file open, 01/15/21 12:18:36
+﻿Log file open, 01/15/21 12:15:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1583195740) SRandInit(1583195741).
+LogInit: Display: RandInit(-244075513) SRandInit(-244075513).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
 LogInit: Build: ++UE4+Release-4.17-CL-3658906
 LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
@@ -45,9 +45,9 @@ LogInit: High frequency timer resolution =10.000000 MHz
 LogMemory: Memory total: Physical=11.8GB (12GB approx)
 LogMemory: Platform Memory Stats for Windows
 LogMemory: Process Physical Memory: 15.57 MB used, 15.57 MB peak
-LogMemory: Process Virtual Memory: 49.80 MB used, 49.80 MB peak
-LogMemory: Physical Memory: 6441.29 MB used,  5660.45 MB free, 12101.74 MB total
-LogMemory: Virtual Memory: 4294.31 MB used,  5660.45 MB free, 134217728.00 MB total
+LogMemory: Process Virtual Memory: 49.83 MB used, 49.83 MB peak
+LogMemory: Physical Memory: 6465.54 MB used,  5636.20 MB free, 12101.74 MB total
+LogMemory: Virtual Memory: 4294.31 MB used,  5636.20 MB free, 134217728.00 MB total
 LogInit: Using OS detected language ().
 LogInit: Using OS detected locale ().
 LogPaths: Warning: No paths for game localization data were specifed in the game configuration.
@@ -72,12 +72,12 @@ LogPakFile: Added compressed file "BUN/Common/Data/BBS_BUNEF.uexp", 17.44% of or
 LogPakFile: Added compressed file "CEN/Common/Data/BBS_CEN.uexp", 12.45% of original size. Compressed Size 25272 bytes, Original Size 203008 bytes (order 536870912).
 LogPakFile: Added compressed file "CMN/Common/Data/BBS_CMNEF.uexp", 17.97% of original size. Compressed Size 15312 bytes, Original Size 85188 bytes (order 536870912).
 LogPakFile: Added compressed file "GHT/Common/Data/BBS_GHT.uexp", 12.62% of original size. Compressed Size 25122 bytes, Original Size 199096 bytes (order 536870912).
-LogPakFile: Added compressed file "GKS/Common/Data/BBS_GKS.uexp", 11.82% of original size. Compressed Size 26443 bytes, Original Size 223724 bytes (order 536870912).
+LogPakFile: Added compressed file "GKS/Common/Data/BBS_GKS.uexp", 11.82% of original size. Compressed Size 26442 bytes, Original Size 223724 bytes (order 536870912).
 LogPakFile: Added compressed file "GKS/Common/Data/BBS_GKSEF.uexp", 12.93% of original size. Compressed Size 10417 bytes, Original Size 80544 bytes (order 536870912).
 LogPakFile: Added compressed file "VGS/Common/Data/BBS_VGS.uexp", 11.78% of original size. Compressed Size 21796 bytes, Original Size 184984 bytes (order 536870912).
-LogPakFile: Display: Added 16 files, 156253 bytes total, time 0.04s.
-LogPakFile: Display: Compression summary: 12.99% of original size. Compressed Size 152800 bytes, Original Size 1176684 bytes. 
-LogPakFile: Display: Unreal pak executed in 0.045627 seconds
+LogPakFile: Display: Added 16 files, 156252 bytes total, time 0.04s.
+LogPakFile: Display: Compression summary: 12.99% of original size. Compressed Size 152799 bytes, Original Size 1176684 bytes. 
+LogPakFile: Display: Unreal pak executed in 0.049183 seconds
 LogExit: Preparing to exit.
 LogExit: Exiting.
-Log file closed, 01/15/21 12:18:36
+Log file closed, 01/15/21 12:15:33
