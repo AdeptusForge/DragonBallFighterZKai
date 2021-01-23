@@ -2120,9 +2120,9 @@ def NmlAtk5A():
         if SLOT_278:
             Unknown1652(1)
         damage2(1)
-        Unknown1092(90)
+        initialscaling_override(90)
         damage1(120)
-        Unknown1117(125)
+        meterbuild_override(125)
         mod_hitstop(1)
         airHitPushbackX(10000)
         airHitPushbackY(9000)
@@ -2368,9 +2368,9 @@ def NmlAtk2A():
         or_launchhit(8)
         damage1(500)
         grHitPushbackX(150)
-        Unknown1023(16)
+        blockstun_override(16)
         mod_hitstop(11)
-        Unknown1023(20)
+        blockstun_override(20)
         airHitPushbackX(10000)
         airHitPushbackY(17000)
         grHitPushbackX(150)
@@ -2682,7 +2682,7 @@ def NmlAtk2C():
     Unknown107(15000)
     Unknown2229(80)
     Unknown135()
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     ActivateEffScript('cmn_Windpressure_Tate', 103)
     Unknown41(1)
     Unknown164(130000)
@@ -3160,7 +3160,7 @@ def NmlAtkAir5D():
     sprite('vtb265_06', 2)
     Unknown32('vtb_233_tame02')
     ActivateEffScript('jumpkidan', 0)
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('vtb265_07', 2)
     sprite('vtb265_08', 2)
     sprite('vtb265_09', 2)
@@ -3233,7 +3233,7 @@ def NmlAtkAir5D():
 def Spiral_Init():
     callSubroutine('cmnAtkLevel_2_AtkInit')
     damage1(130)
-    Unknown1117(300)
+    meterbuild_override(300)
     or_standhit(8)
     or_launchhit(8)
     airHitPushbackX(15000)
@@ -3261,7 +3261,7 @@ def Spiral_Init():
     if Unknown2033(23, 'Spiralheelshoot_A'):
         pass
     if Unknown2033(23, 'Spiralheelshoot_B'):
-        Unknown1117(350)
+        meterbuild_override(350)
         Unknown717('ShakeYoko', 350, 0, 5, 0)
         storeValue(2, 46, 0, 1)
     if Unknown2033(23, 'Spiralheelshoot_C'):
@@ -3270,7 +3270,7 @@ def Spiral_Init():
     if Unknown2033(23, 'AirSpiralheelshoot_A'):
         storeValue(2, 48, 0, 1)
     if Unknown2033(23, 'AirSpiralheelshoot_B'):
-        Unknown1117(350)
+        meterbuild_override(350)
         Unknown717('ShakeYoko', 350, 0, 5, 0)
         storeValue(2, 46, 0, 1)
         storeValue(2, 48, 0, 1)
@@ -4428,7 +4428,7 @@ def Atomicbuster_A():
     sprite('vtb402_05', 1)
     sprite('vtb402_06', 1)
     makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('vtb402_06', 3)
     Unknown1866(0)
     sprite('vtb402_07', 3)
@@ -4472,7 +4472,7 @@ def Atomicbuster_B():
     sprite('vtb402_05', 2)
     sprite('vtb402_06', 1)
     makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('vtb402_06', 3)
     Unknown1866(0)
     sprite('vtb402_07', 3)
@@ -4517,7 +4517,7 @@ def Atomicbuster_C():
     sprite('vtb402_05', 1)
     sprite('vtb402_06', 1)
     makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('vtb402_06', 3)
     Unknown1866(0)
     sprite('vtb402_07', 3)
@@ -4564,7 +4564,7 @@ def AirAtomicbuster_A():
     sprite('vtb402_05', 1)
     sprite('vtb402_06', 4)
     makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('vtb402_07', 3)
     Unknown2229(90)
     sprite('vtb402_28', 4)
@@ -4609,7 +4609,7 @@ def AirAtomicbuster_B():
     sprite('vtb402_05', 2)
     sprite('vtb402_06', 4)
     makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('vtb402_07', 3)
     Unknown2229(80)
     sprite('vtb402_28', 4)
@@ -4661,7 +4661,7 @@ def AirAtomicbuster_C():
     sprite('vtb402_05', 1)
     sprite('vtb402_06', 4)
     makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     Unknown23(3)
     physicsImpulseX(80000)
     sprite('vtb402_07', 3)
@@ -5088,7 +5088,7 @@ def Splitfingershot():
     ActivateEffScript('Split_kidan4', 10)
     Unknown2229(100)
     Unknown2230(100)
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('vtb401_07', 2)
     sprite('vtb401_08', 2)
     Unknown135()
@@ -5145,7 +5145,7 @@ def AirSplitfingershot():
     Unknown115()
     Unknown111(85)
     Unknown116(85)
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     sprite('vtb401_07', 2)
     sprite('vtb401_08', 2)
     Unknown135()
@@ -5269,7 +5269,7 @@ def Spiritsexcalibur():
 
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
-        Unknown292(10000)
+        meterspend_override(10000)
         Unknown2202('020000003c00000000000000000000000000000001000000')
     sprite('vtb430_00', 3)
     Unknown1700(2)
@@ -5448,7 +5448,7 @@ def Omegafinishblow():
             Unknown633(18, 30)
         Unknown2486(1)
         Unknown35('020000006c616e64696e6700000000000000000000000000000000000000000000000000')
-        Unknown292(10000)
+        meterspend_override(10000)
     sprite('vtb431_00', 3)
     Unknown1700(1)
     Unknown176(1)
@@ -5810,7 +5810,7 @@ def FinalKamehameha():
 
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
-        Unknown292(30000)
+        meterspend_override(30000)
 
         def upon_11():
             Unknown633(1, 40)
@@ -5964,7 +5964,7 @@ def AirFinalKamehameha():
     def upon_IMMEDIATE():
         Unknown2486(1)
         Unknown35('020000006c616e64696e6700000000000000000000000000000000000000000000000000')
-        Unknown292(30000)
+        meterspend_override(30000)
 
         def upon_11():
             Unknown633(1, 40)
@@ -7391,7 +7391,7 @@ def CmnActHomingDash():
     callSubroutine('AN_CmnActHomingDash_Face')
     if SLOT_249:
         Unknown1651(1)
-        cancel_autocombo('NmlAtkAir5A')
+        cancel_autocombo_('NmlAtkAir5A')
         Unknown1662('NmlAtkAir5A', 8)
     sprite('xxx038_01', 2)
     sprite('xxx038_02', 2)

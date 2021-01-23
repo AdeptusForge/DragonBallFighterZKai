@@ -2787,7 +2787,7 @@ def NmlAtkAir2C():
         or_standhit(8)
         or_launchhit(8)
         Unknown1108(-70)
-        Unknown1117(1200)
+        meterbuild_override(1200)
         Unknown1027(50000000, 0, 0, 0)
         if SLOT_278:
             cancel_onhitorblock_('CmnFAirDash')
@@ -3024,7 +3024,7 @@ def NmlAtkAir5D():
     Unknown176(1)
     sprite('npn265_01', 2)
     sprite('npn265_02', 2)
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     Unknown613('vxxx109')
     sprite('npn265_03', 2)
     ActivateEffScript('jumpkidan_start', 0)
@@ -3072,7 +3072,7 @@ def ArmBreak_Init():
     callSubroutine('cmnAtkLevel_3_AtkInit')
     callSubroutine('cmn_KuzushiHosei')
     damage1(700)
-    Unknown1117(600)
+    meterbuild_override(600)
     or_standhit(10)
     or_launchhit(10)
     airHitPushbackX(5000)
@@ -3138,7 +3138,7 @@ def ArmBreak_Init():
 def ArmBreak_Atk():
     callSubroutine('cmn_KuzushiHosei')
     damage1(1200)
-    Unknown1117(1200)
+    meterbuild_override(1200)
     or_standhit(10)
     or_launchhit(10)
     airHitPushbackX(12000)
@@ -3157,13 +3157,13 @@ def ArmBreak_Atk():
         Unknown806(20000)
     if Unknown2033(23, 'ArmBreak_B'):
         damage1(900)
-        Unknown1117(600)
+        meterbuild_override(600)
         if SLOT_48:
             damage1(1200)
             Unknown1202('4152435f42544c5f434d4e5f4869745f584c6172676500000000000000000000')
     if Unknown2033(23, 'ArmBreak_C'):
         damage1(1000)
-        Unknown1117(0)
+        meterbuild_override(0)
         Unknown854(1)
         Unknown802(100)
         Unknown806(20000)
@@ -3695,7 +3695,7 @@ def AirPi():
     sprite('npn403_01', 1)
     Unknown615('ARC_BTL_NPN_Pi_Basa')
     sprite('npn403_02', 2)
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     Unknown618('7678787832313000000000000000000064000000767878783231310000000000000000006400000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
     sprite('npn403_03', 2)
     sprite('npn403_06', 2)
@@ -3742,7 +3742,7 @@ def Zannendattana():
         callSubroutine('cmnAtkLevel_3_AtkInit')
         callSubroutine('cmn_KuzushiHosei')
         damage1(500)
-        Unknown1117(500)
+        meterbuild_override(500)
         Unknown1058(1)
         airHitPushbackX(5000)
         airHitPushbackY(10000)
@@ -3923,7 +3923,7 @@ def Kun():
 
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
-        Unknown292(10000)
+        meterspend_override(10000)
 
         def upon_1():
             Unknown633(0, 20)
@@ -4072,7 +4072,7 @@ def Kapa():
                 untech_Override(20)
                 Unknown948(1)
                 Unknown1095(0)
-                Unknown1092(90)
+                initialscaling_override(90)
 
         def upon_90():
             Unknown23(90)
@@ -4099,7 +4099,7 @@ def Kapa():
                     Unknown14('hit')
             callSubroutine('cmnUltimate_CameraCombo')
             endIf()
-        Unknown292(30000)
+        meterspend_override(30000)
 
         def upon_1():
             Unknown633(0, 20)
@@ -5509,7 +5509,7 @@ def CmnActHomingDash():
     callSubroutine('AN_CmnActHomingDash_Face')
     if SLOT_249:
         Unknown1651(1)
-        cancel_autocombo('NmlAtkAir5A')
+        cancel_autocombo_('NmlAtkAir5A')
         Unknown1662('NmlAtkAir5A', 8)
     sprite('xxx038_01', 2)
     sprite('xxx038_02', 2)

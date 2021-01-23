@@ -2226,7 +2226,7 @@ def NmlAtk5A3rd():
     Unknown2229(90)
     sprite('vgn202_05', 2)
     Unknown448('bg_jump_default', 100)
-    Unknown1824(5, 1)
+    landing_override(5, 1)
     physicsImpulseY(60000)
     makeActive()
     sprite('vgn202_06', 2)
@@ -2290,7 +2290,7 @@ def NmlAtk5A3rd():
     untech_Override(40)
     Unknown1128(0)
     Unknown1064('0000000000000000000000000000000000000000000000000000000000000000')
-    cancel_autocombo('CmnActHomingDash')
+    cancel_autocombo_('CmnActHomingDash')
     Unknown1202('64616d6d79000000000000000000000000000000000000000000000000000000')
     Unknown1119('')
     Unknown1119('ARC_BTL_CMN_Guard_Large')
@@ -2550,7 +2550,7 @@ def NmlAtk2C():
     Unknown2229(90)
     physicsImpulseY(19000)
     Unknown127(1500)
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     Unknown612('ARC_BTL_CMN_Furi_Keri')
     sprite('vgn232_04', 2)
     sprite('vgn232_05', 1)
@@ -2992,7 +2992,7 @@ def NmlAtkAir5D():
     if Unknown48(147):
         Unknown2279('00000000010000000000000000000000')
     Unknown445('6b6964616e5f416972354400000000000000000000000000000000000000000000000000')
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     Unknown637('000000004b6964616e46697265000000000000000000000000000000000000000000000064000000')
     sprite('vgn265_05', 2)
     sprite('vgn265_06', 2)
@@ -3018,7 +3018,7 @@ def NmlAtkAir2D():
     Unknown109()
     Unknown114()
     Unknown176(1)
-    Unknown1824(5, 1)
+    landing_override(5, 1)
     sprite('vgn267_01', 2)
     Unknown1698(6)
     Unknown1700(1)
@@ -3210,7 +3210,7 @@ def SuperDashKick_VGN_A():
     Unknown615('ARC_BTL_VGN_SprDshKck_Syuba')
     Unknown113(10000)
     physicsImpulseX(10000)
-    Unknown1824(3, 0)
+    landing_override(3, 0)
     Unknown618('7678787832303000000000000000000064000000767878783230310000000000000000006400000076787878323032000000000000000000640000000000000000000000000000000000000000000000')
     sprite('vgn400_04', 2)
     physicsImpulseY(0)
@@ -3580,7 +3580,7 @@ def AirSuperDashKick_VGN_B():
     sprite('keep', 3)
     Unknown251(0)
     physicsImpulseX(150000)
-    Unknown1824(3, 0)
+    landing_override(3, 0)
     sprite('vgn400_18', 4)
     Unknown1803('VGN_400EffAir', 23)
     Unknown2229(80)
@@ -3840,7 +3840,7 @@ def DeathKnee_Init():
     airHitPushbackX(0)
     airHitPushbackY(-60000)
     untech_Override(60)
-    Unknown1023(13)
+    blockstun_override(13)
     ChangeAtkDir(1)
     Unknown1190(1)
     Unknown1202('4152435f42544c5f434d4e5f4869745f4d69646c652d41000000000000000000')
@@ -3873,7 +3873,7 @@ def DeathKnee_Init():
                 Unknown1042('44656174684b6e65655f45786500000000000000000000000000000000000000')
                 Unknown1095(0)
                 damage1(0)
-                Unknown1117(0)
+                meterbuild_override(0)
                 mod_hitstop(0)
                 Unknown1059(1)
                 endElse()
@@ -5063,9 +5063,9 @@ def UgokenaiExe():
         callSubroutine('cmnAtkLevel_0_AtkInit')
         callSubroutine('cmnAtkTemplNageExe')
         damage1(0)
-        Unknown1092(90)
+        initialscaling_override(90)
         Unknown1095(0)
-        Unknown1117(1500)
+        meterbuild_override(1500)
         or_launchhit(8)
         or_standhit(8)
         airHitPushbackX(2000)
@@ -5318,7 +5318,7 @@ def GalickGun_VGN():
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
         Unknown2486(1)
-        Unknown292(10000)
+        meterspend_override(10000)
         if Unknown2030('UgokenaiExe'):
             storeValue(2, 47, 0, 1)
 
@@ -5533,7 +5533,7 @@ def AirGalickGun_VGN():
 
     def upon_IMMEDIATE():
         Unknown2486(1)
-        Unknown292(10000)
+        meterspend_override(10000)
 
         def upon_11():
             Unknown633(1, 30)
@@ -5733,7 +5733,7 @@ def GalaxyBreaker():
         def upon_3():
             if SLOT_46:
                 Unknown2121('46696e69736843616d6572615f47616c617879427265616b6572000000000000')
-        Unknown292(30000)
+        meterspend_override(30000)
 
         def upon_11():
             Unknown633(2, 20)
@@ -7124,7 +7124,7 @@ def CmnActHomingDash():
     callSubroutine('AN_CmnActHomingDash_Face')
     if SLOT_249:
         Unknown1651(1)
-        cancel_autocombo('NmlAtkAir5A')
+        cancel_autocombo_('NmlAtkAir5A')
         Unknown1662('NmlAtkAir5A', 8)
     sprite('xxx038_01', 2)
     sprite('xxx038_02', 2)

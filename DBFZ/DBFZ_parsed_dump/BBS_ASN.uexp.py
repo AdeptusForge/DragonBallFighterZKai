@@ -3049,7 +3049,7 @@ def NmlAtkAir5D():
     sprite('asn265_01', 2)
     Unknown176(1)
     sprite('asn265_02', 3)
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn265_03', 4)
     sprite('asn265_04', 2)
     Unknown612('ARC_BTL_CMN_Charge_Bishi')
@@ -3145,7 +3145,7 @@ def DynamiteDriver_Exe_default():
     callSubroutine('cmn_KuzushiHosei')
     Unknown1095(1000)
     damage1(1500)
-    Unknown1117(1500)
+    meterbuild_override(1500)
     or_standhit(8)
     or_launchhit(8)
 
@@ -3699,7 +3699,7 @@ def FlyingPowerBom_Exe_default():
     Unknown854(1)
     Unknown1108(90)
     Unknown717('ShakeTate', 1000, 0, 20, 1)
-    Unknown1117(1500)
+    meterbuild_override(1500)
     untech_Override(27)
     Unknown1818()
     if SLOT_54:
@@ -3725,7 +3725,7 @@ def AirFlyingPowerBom_236A():
     if SLOT_16:
         if (not SLOT_266):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn401_26', 3)
     beginRecovery()
     Unknown1700(0)
@@ -3762,7 +3762,7 @@ def AirFlyingPowerBom_236B():
     if SLOT_16:
         if (not SLOT_266):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn402_02', 2)
     sprite('asn402_03', 2)
     sprite('asn402_04', 2)
@@ -3814,7 +3814,7 @@ def AirFlyingPowerBom_236C():
     if SLOT_16:
         if (not SLOT_266):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn402_03', 2)
     sprite('asn402_04', 2)
     if SLOT_45:
@@ -3873,7 +3873,7 @@ def FlyingPowerBom_A():
     if SLOT_16:
         if (not SLOT_267):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn401_07', 2)
     Unknown1866(0)
     sprite('asn401_08', 4)
@@ -3933,7 +3933,7 @@ def FlyingPowerBom_B():
     if SLOT_16:
         if (not SLOT_267):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn401_07', 2)
     Unknown1866(0)
     sprite('asn401_08', 3)
@@ -4006,7 +4006,7 @@ def FlyingPowerBom_C():
     if SLOT_16:
         if (not SLOT_267):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn401_07', 2)
     Unknown1866(0)
     sprite('asn401_08', 3)
@@ -4063,7 +4063,7 @@ def AirFlyingPowerBom_214A():
     if SLOT_16:
         if (not SLOT_267):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn401_08', 4)
     Unknown2230(95)
     Unknown2229(90)
@@ -4118,7 +4118,7 @@ def AirFlyingPowerBom_214B():
     if SLOT_16:
         if (not SLOT_267):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn401_08', 3)
     Unknown2229(85)
     sprite('asn401_09', 3)
@@ -4175,7 +4175,7 @@ def AirFlyingPowerBom_214C():
     if SLOT_16:
         if (not SLOT_267):
             makeActive()
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('asn401_08', 3)
     Unknown2229(85)
     Unknown2229(80)
@@ -4260,7 +4260,7 @@ def FlyingPowerBom_Exe():
             Unknown98(5000000)
         if SLOT_283:
             damage1(700)
-            Unknown1117(100)
+            meterbuild_override(100)
             storeValue(2, 49, 0, 0)
             if (SLOT_47 == 3):
                 damage1(900)
@@ -4672,7 +4672,7 @@ def HellsFlash():
 
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
-        Unknown292(10000)
+        meterspend_override(10000)
         Unknown2121('46696e69736843616d6572615f48656c6c73466c617368000000000000000000')
 
         def upon_1():
@@ -4825,7 +4825,7 @@ def HellsFlash():
 def AirHellsFlash():
 
     def upon_IMMEDIATE():
-        Unknown292(10000)
+        meterspend_override(10000)
         Unknown2121('46696e69736843616d6572615f48656c6c73466c617368000000000000000000')
 
         def upon_1():
@@ -4996,7 +4996,7 @@ def HellsFlash_Lv3():
         Unknown736(1)
         Unknown1179(0)
         Unknown717('ShakeTate', 800, 0, 20, 0)
-        Unknown292(30000)
+        meterspend_override(30000)
         callSubroutine('HellsFlashPreAction')
     goto('zero', 2, 53)
     sprite('asn400_00', 3)
@@ -5422,7 +5422,7 @@ def Don'tUse_Lastpower():
         Unknown2169(0)
         Unknown2170(0)
         Unknown2168(0)
-        Unknown292(30000)
+        meterspend_override(30000)
         Unknown2516(1)
 
         def upon_1():
@@ -6825,7 +6825,7 @@ def CmnActHomingDash():
     callSubroutine('AN_CmnActHomingDash_Face')
     if SLOT_249:
         Unknown1651(1)
-        cancel_autocombo('NmlAtkAir5A')
+        cancel_autocombo_('NmlAtkAir5A')
         Unknown1662('NmlAtkAir5A', 8)
     sprite('xxx038_01', 2)
     sprite('xxx038_02', 2)

@@ -2686,7 +2686,7 @@ def NmlAtk5C():
     def upon_IMMEDIATE():
         callSubroutine('cmnNmlAtk5C_AtkInit')
         callSubroutine('cmnNmlAtk5C_Init')
-        Unknown1023(22)
+        blockstun_override(22)
         cancel_onhitorblock_('NmlAtk2D')
 
         def upon_49():
@@ -2797,7 +2797,7 @@ def NmlAtk2C():
     sprite('ymn232_01', 1)
     Unknown1866(1)
     sprite('ymn232_01', 2)
-    Unknown1824(10, 1)
+    landing_override(10, 1)
     Unknown621(2, 0)
     sprite('ymn232_02', 2)
     sprite('ymn232_03', 2)
@@ -3119,7 +3119,7 @@ def NmlAtkAir2C():
         airHitPushbackY(-50000)
         hitstun_Override(20)
         untech_Override(26)
-        Unknown1023(15)
+        blockstun_override(15)
         ChangeAtkDir(0)
         if SLOT_278:
             Unknown1652(1)
@@ -3185,7 +3185,7 @@ def NmlAtkAir5D():
     physicsImpulseX(-50000)
     physicsImpulseY(20000)
     Unknown135()
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     Unknown619('7678787831303600000000000000000064000000767878783130370000000000000000006400000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
     sprite('ymn205_05', 3)
     sprite('ymn205_06', 3)
@@ -3210,7 +3210,7 @@ def RFK_A():
         callSubroutine('cmnAtkLevel_2_AtkInit')
         damage1(220)
         Unknown1143(1)
-        Unknown1117(240)
+        meterbuild_override(240)
         airHitPushbackX(18000)
         airHitPushbackY(3000)
         mod_hitstop(0)
@@ -3332,7 +3332,7 @@ def RFK_A():
     if (not SLOT_51):
         callSubroutine('cmnAtkLevel_3_AtkInit')
         damage1(220)
-        Unknown1117(240)
+        meterbuild_override(240)
         mod_hitstop(13)
         grHitPushbackX(80)
     airHitPushbackX(5000)
@@ -3394,7 +3394,7 @@ def RFK_B():
         callSubroutine('cmnAtkLevel_2_AtkInit')
         damage1(220)
         Unknown1143(1)
-        Unknown1117(240)
+        meterbuild_override(240)
         airHitPushbackX(18000)
         airHitPushbackY(3000)
         untech_Override(25)
@@ -3572,7 +3572,7 @@ def RFK_B():
     if (not SLOT_51):
         callSubroutine('cmnAtkLevel_3_AtkInit')
         damage1(220)
-        Unknown1117(240)
+        meterbuild_override(240)
         mod_hitstop(13)
         grHitPushbackX(80)
     airHitPushbackX(5000)
@@ -4011,7 +4011,7 @@ def RFK_ren_finishInit():
     if (not SLOT_51):
         callSubroutine('cmnAtkLevel_3_AtkInit')
         damage1(220)
-        Unknown1117(240)
+        meterbuild_override(240)
         mod_hitstop(13)
         grHitPushbackX(80)
     airHitPushbackX(10000)
@@ -4064,7 +4064,7 @@ def RFK_ren_A():
         callSubroutine('cmnAtkLevel_2_AtkInit')
         damage1(220)
         Unknown1143(1)
-        Unknown1117(240)
+        meterbuild_override(240)
         mod_hitstop(0)
         airHitPushbackX(1000)
         airHitPushbackY(3000)
@@ -4247,7 +4247,7 @@ def RFK_ren_B():
         callSubroutine('cmnAtkLevel_2_AtkInit')
         damage1(220)
         Unknown1143(1)
-        Unknown1117(240)
+        meterbuild_override(240)
         mod_hitstop(0)
         airHitPushbackX(1000)
         airHitPushbackY(3000)
@@ -4705,7 +4705,7 @@ def RFK_sen():
     def upon_IMMEDIATE():
         callSubroutine('cmnAtkLevel_3_AtkInit')
         damage1(1200)
-        Unknown1092(90)
+        initialscaling_override(90)
         or_standhit(27)
         or_launchhit(27)
         airHitPushbackX(0)
@@ -4815,7 +4815,7 @@ def RFK_senpu_Camera():
 def RFK_senpu_Init():
     callSubroutine('cmnAtkLevel_2_AtkInit')
     damage1(50)
-    Unknown1117(240)
+    meterbuild_override(240)
     mod_hitstop(2)
     or_standhit(8)
     or_launchhit(8)
@@ -5701,7 +5701,7 @@ def Sokidan():
             if SLOT_58:
                 if SLOT_214:
                     storeValue(2, 265, 0, 1)
-        Unknown292(10000)
+        meterspend_override(10000)
         Unknown2202('020000003100000000000000000000000000000001000000')
     sprite('ymn430_00', 2)
     Unknown1697(22)
@@ -5990,7 +5990,7 @@ def Sin_RFK():
             def upon_86():
                 Unknown23(86)
                 Unknown14('nohit')
-            Unknown292(30000)
+            meterspend_override(30000)
         sprite('ymn431_00', 2)
         Unknown1698(6)
         Unknown1700(4)
@@ -7635,7 +7635,7 @@ def CmnActHomingDash():
     callSubroutine('AN_CmnActHomingDash_Face')
     if SLOT_249:
         Unknown1651(1)
-        cancel_autocombo('NmlAtkAir5A')
+        cancel_autocombo_('NmlAtkAir5A')
         Unknown1662('NmlAtkAir5A', 8)
     sprite('xxx038_01', 2)
     sprite('xxx038_02', 2)

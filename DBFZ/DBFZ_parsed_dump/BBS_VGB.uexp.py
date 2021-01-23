@@ -2587,7 +2587,7 @@ def NmlAtk2C():
     Unknown1700(4)
     sprite('vgb232_01', 3)
     sprite('vgb232_02', 3)
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     Unknown621(2, 255)
     sprite('vgb232_03', 2)
     physicsImpulseX(22000)
@@ -2867,7 +2867,7 @@ def NmlAtkAir5D():
     sprite('vgb265_02', 2)
     Unknown619('7678787831303600000000000000000064000000767878783130370000000000000000006400000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
     sprite('vgb265_03', 3)
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     sprite('vgb265_04', 1)
     sprite('vgb265_05', 1)
     sprite('vgb265_06', 1)
@@ -2941,7 +2941,7 @@ def NmlAtkAir2D():
     sprite('vgb265_02', 1)
     Unknown619('7678787831303600000000000000000064000000767878783130370000000000000000006400000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
     sprite('vgb265_03', 3)
-    Unknown1824(7, 1)
+    landing_override(7, 1)
     if (not 
     Unknown2030('NmlAtkAir5D')):
         if (not SLOT_92):
@@ -3014,54 +3014,54 @@ def SuperDashKick2_Cancel():
 @Subroutine
 def SuperDashKick_Damage():
     damage1(600)
-    Unknown1092(90)
-    Unknown1117(1000)
+    initialscaling_override(90)
+    meterbuild_override(1000)
     Unknown1051(0)
     if (SLOT_51 == 10):
         damage1(650)
     if (SLOT_51 == 20):
         damage1(700)
-        Unknown1117(0)
+        meterbuild_override(0)
     if (SLOT_51 == 1):
         damage1(650)
-        Unknown1117(1200)
+        meterbuild_override(1200)
         if SLOT_54:
             damage1(1000)
     if (SLOT_51 == 11):
         damage1(240)
-        Unknown1117(400)
+        meterbuild_override(400)
         if SLOT_54:
             damage1(380)
     if (SLOT_51 == 21):
         damage1(750)
-        Unknown1117(0)
+        meterbuild_override(0)
         if SLOT_54:
             Unknown963(150)
             damage1(1200)
     if (SLOT_51 == 2):
         damage1(650)
-        Unknown1117(1500)
+        meterbuild_override(1500)
         if (SLOT_54 == 1):
             damage1(1000)
         if (SLOT_54 == 2):
             damage1(1500)
     if (SLOT_51 == 12):
         damage1(700)
-        Unknown1117(1500)
+        meterbuild_override(1500)
         if (SLOT_54 == 1):
             damage1(1100)
         if (SLOT_54 == 2):
             damage1(1500)
     if (SLOT_51 == 22):
         damage1(200)
-        Unknown1117(0)
+        meterbuild_override(0)
         if (SLOT_54 == 1):
             Unknown963(100)
         if (SLOT_54 == 2):
             Unknown963(100)
     if (SLOT_51 == 23):
         damage1(700)
-        Unknown1117(0)
+        meterbuild_override(0)
         if (SLOT_54 == 1):
             damage1(1100)
         if (SLOT_54 == 2):
@@ -4411,7 +4411,7 @@ def SuperDashKick_C3():
     untech_Override(20)
     mod_hitstop(11)
     mod_opphitstop(0, 5, 5)
-    Unknown1117(0)
+    meterbuild_override(0)
     storeValue(2, 51, 0, 23)
     callSubroutine('SuperDashKick_Damage')
 
@@ -5697,7 +5697,7 @@ def NiagaraDrop():
         def upon_1():
             Unknown633(0, 20)
         Unknown2121('46696e69736843616d6572615f4e69616761726144726f700000000000000000')
-        Unknown292(10000)
+        meterspend_override(10000)
     sprite('vgb430_00', 3)
     Unknown1698(6)
     Unknown1700(4)
@@ -6019,7 +6019,7 @@ def GalickGun():
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
         Unknown1058(1)
-        Unknown292(10000)
+        meterspend_override(10000)
 
         def upon_11():
             Unknown633(0, 20)
@@ -6220,7 +6220,7 @@ def FinalFlash():
             Unknown1662('FinalFlashAttack', 10)
         Unknown2486(1)
         Unknown35('020000006c616e64696e6700000000000000000000000000000000000000000000000000')
-        Unknown292(30000)
+        meterspend_override(30000)
 
         def upon_11():
             Unknown633(0, 40)
@@ -6378,7 +6378,7 @@ def AirFinalFlash():
             Unknown1662('FinalFlashAttack', 10)
         Unknown2486(1)
         Unknown35('020000006c616e64696e6700000000000000000000000000000000000000000000000000')
-        Unknown292(30000)
+        meterspend_override(30000)
 
         def upon_11():
             Unknown633(0, 40)
@@ -6612,7 +6612,7 @@ def FinalFlashAttack():
         Unknown1118('dammy')
         Unknown1827(1)
         Unknown2486(1)
-        Unknown292(20000)
+        meterspend_override(20000)
     Unknown2517(1)
     sprite('vgb432_18', 1)
     ActivateEffScript('finalblow', 132)
@@ -7803,7 +7803,7 @@ def CmnActHomingDash():
     callSubroutine('AN_CmnActHomingDash_Face')
     if SLOT_249:
         Unknown1651(1)
-        cancel_autocombo('NmlAtkAir5A')
+        cancel_autocombo_('NmlAtkAir5A')
         Unknown1662('NmlAtkAir5A', 8)
     sprite('xxx038_01', 2)
     sprite('xxx038_02', 2)

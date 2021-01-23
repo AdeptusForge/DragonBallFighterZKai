@@ -2335,7 +2335,7 @@ def NmlAtk2B():
         callSubroutine('cmnNmlAtk2B_AtkInit')
         callSubroutine('cmnNmlAtk2B_Init')
         if SLOT_250:
-            cancel_onhit_('NmlAtk6D')
+            Unknown1675('NmlAtk6D')
         cancel_onhitorblock_('NmlAtk2D')
         cancel_onhitorblock_('NmlAtk3D')
         cancel_onhitorblock_('NmlAtk6D')
@@ -2514,7 +2514,7 @@ def NmlAtk2C():
 def DNage_default():
     callSubroutine('cmnAtkTemplNageLand')
     damage1(800)
-    Unknown1117(1200)
+    meterbuild_override(1200)
     callSubroutine('cmn_KuzushiHosei')
     Unknown1095(0)
     Unknown1157(0)
@@ -2626,7 +2626,7 @@ def NmlAtk5DExe():
         Unknown1673(17, 1)
         callSubroutine('cmnAtkLevel_2_AtkInit')
         damage1(0)
-        Unknown1117(0)
+        meterbuild_override(0)
         mod_hitstop(0)
         grHitPushbackX(50)
         Unknown1142(1)
@@ -2932,7 +2932,7 @@ def NmlAtk2DExe():
         Unknown1673(17, 2)
         callSubroutine('cmnAtkLevel_2_AtkInit')
         damage1(500)
-        Unknown1117(0)
+        meterbuild_override(0)
         mod_hitstop(0)
         or_launchhit(10)
         airHitPushbackX(-3000)
@@ -3158,7 +3158,7 @@ def NmlAtk6D():
     sprite('pcn407_09', 2)
     ActivateEffScript('Dengeki', 0)
     if SLOT_250:
-        cancel_onhit_('BRendaChainSpecial')
+        Unknown1675('BRendaChainSpecial')
     sprite('pcn407_10', 2)
     sprite('pcn407_11', 2)
     sprite('pcn407_12', 2)
@@ -3521,7 +3521,7 @@ def NmlAtkAir5DExe():
         Unknown1673(17, 1)
         callSubroutine('cmnAtkLevel_2_AtkInit')
         damage1(0)
-        Unknown1117(0)
+        meterbuild_override(0)
         mod_hitstop(0)
         or_launchhit(1)
         or_standhit(1)
@@ -4340,7 +4340,7 @@ def Uramahiji_A():
         Unknown717('ShakeYoko', 700, 0, 18, 10)
         if SLOT_250:
             Unknown1662('Makankou', 10)
-            cancel_onhit_('Makankou')
+            Unknown1675('Makankou')
         Unknown35('08000000656e640000000000000000000000000000000000000000000000000000000000')
 
         def upon_1():
@@ -5514,7 +5514,7 @@ def HomingEdan():
 def MakuuHouidan():
 
     def upon_IMMEDIATE():
-        Unknown292(10000)
+        meterspend_override(10000)
         Unknown1058(1)
     sprite('pcn000_00', 4)
     Unknown176(1)
@@ -5712,7 +5712,7 @@ def Makankou():
             Unknown633(17, 20)
             Unknown633(0, 10)
             Unknown633(1, 30)
-        Unknown292(10000)
+        meterspend_override(10000)
     sprite('pcn431_00', 2)
     Unknown1698(5)
     Unknown1700(4)
@@ -5976,7 +5976,7 @@ def Gekiretukoudan():
 
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
-        Unknown292(30000)
+        meterspend_override(30000)
     sprite('pcn432_00', 4)
     Unknown1827(1)
     Unknown176(1)

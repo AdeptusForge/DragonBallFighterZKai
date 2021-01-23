@@ -2451,7 +2451,7 @@ def NmlAtk5A3rdExe():
         Unknown1673(17, 1)
         callSubroutine('cmnNmlAtk5A3rd_AtkInit')
         callSubroutine('cmnNmlAtk5A3rd_Init')
-        Unknown1117(600)
+        meterbuild_override(600)
         grHitPushbackX(0)
         untech_Override(40)
         Unknown1073(1)
@@ -3243,7 +3243,7 @@ def NmlAtkAir5B():
     mod_hitstop(11)
     callSubroutine('cmnRendaChain_Clear_Idling')
     if SLOT_45:
-        cancel_autocombo('NmlAtkAir5C')
+        cancel_autocombo_('NmlAtkAir5C')
     sprite('frn261_09', 2)
     beginRecovery()
     sprite('frn261_10', 2)
@@ -3376,7 +3376,7 @@ def NmlAtkAir2C():
     sprite('frn262_08', 2)
     ActivateEffScript('cmn_Windpressure_Tate', 100)
     makeActive()
-    Unknown1824(10, 1)
+    landing_override(10, 1)
     Unknown113(-22000)
     sprite('frn262_09', 3)
     sprite('frn262_10', 2)
@@ -3442,7 +3442,7 @@ def NmlAtkAir5D():
     Unknown2229(70)
     physicsImpulseY(5000)
     Unknown127(1500)
-    Unknown1824(10, 1)
+    landing_override(10, 1)
     Unknown1653(1)
     Unknown1651(1)
     enableWhiffCancel(1)
@@ -3597,7 +3597,7 @@ def NmlAtkAir2D():
     physicsImpulseY(15000)
     Unknown135()
     Unknown612('ARC_BTL_CMN_Kdn_Fire_L')
-    Unknown1824(3, 1)
+    landing_override(3, 1)
     sprite('frn267_07', 3)
     sprite('frn267_08', 3)
     sprite('frn267_09', 3)
@@ -4069,7 +4069,7 @@ def AirDieThisTimeExe():
     Unknown2229(70)
     physicsImpulseY(15000)
     Unknown127(1000)
-    Unknown1824(5, 1)
+    landing_override(5, 1)
     sprite('frn402_14', 3)
     sprite('frn402_15', 3)
     sprite('frn402_13', 3)
@@ -4237,7 +4237,7 @@ def DeathBall():
 
     def upon_IMMEDIATE():
         Unknown1668(20, 1)
-        Unknown292(10000)
+        meterspend_override(10000)
     sprite('frn010_00', 2)
     Unknown1698(6)
     Unknown1700(3)
@@ -4245,7 +4245,7 @@ def DeathBall():
     sprite('frn010_01', 2)
     sprite('frn430_00', 3)
     Unknown127(-1000)
-    Unknown1824(5, 1)
+    landing_override(5, 1)
     sprite('frn430_00', 3)
     Unknown271('03000000770000006400000064000000')
     Unknown1827(1)
@@ -4367,7 +4367,7 @@ def DeathBall():
 def DeathBall_CD():
 
     def upon_IMMEDIATE():
-        Unknown292(10000)
+        meterspend_override(10000)
     sprite('frn010_00', 2)
     Unknown1698(6)
     Unknown1700(3)
@@ -4375,7 +4375,7 @@ def DeathBall_CD():
     sprite('frn010_01', 2)
     sprite('frn430_00', 3)
     Unknown127(-1000)
-    Unknown1824(5, 1)
+    landing_override(5, 1)
     sprite('frn430_00', 3)
     Unknown271('03000000770000006400000064000000')
     Unknown1827(1)
@@ -4498,7 +4498,7 @@ def AirDeathBall():
 
     def upon_IMMEDIATE():
         Unknown2486(1)
-        Unknown292(10000)
+        meterspend_override(10000)
     sprite('frn430_00', 3)
     Unknown1698(6)
     Unknown1700(3)
@@ -4621,7 +4621,7 @@ def AirDeathBall_CD():
 
     def upon_IMMEDIATE():
         Unknown2486(1)
-        Unknown292(10000)
+        meterspend_override(10000)
     sprite('frn430_00', 3)
     Unknown1698(6)
     Unknown1700(3)
@@ -4786,7 +4786,7 @@ def NovaStrike():
             Unknown127(4000)
             callSubroutine('cmnUltimate_CameraCombo')
         Unknown2121('46696e69736843616d6572615f4e6f7661537472696b65000000000000000000')
-        Unknown292(30000)
+        meterspend_override(30000)
     sprite('frn431_00', 4)
     Unknown1698(6)
     Unknown176(1)
@@ -4949,7 +4949,7 @@ def AirNovaStrike():
             Unknown127(4000)
             callSubroutine('cmnUltimate_CameraCombo')
         Unknown2121('46696e69736843616d6572615f4e6f7661537472696b65000000000000000000')
-        Unknown292(30000)
+        meterspend_override(30000)
     sprite('frn022_01', 3)
     Unknown176(1)
     Unknown1827(1)
@@ -5104,7 +5104,7 @@ def YouWillDie():
     Unknown26(5, 2, 46)
     sprite('frn432_00', 3)
     Unknown2077('ShakeTate', 500, 80, 69, 1)
-    Unknown292(30000)
+    meterspend_override(30000)
     sprite('frn432_01', 3)
     sprite('frn432_02', 3)
     sprite('frn432_03', 1)
@@ -5217,7 +5217,7 @@ def GoldenFrieza():
 
     def upon_IMMEDIATE():
         Unknown1058(1)
-        Unknown292(30000)
+        meterspend_override(30000)
         Unknown2516(2)
         if conditionalunk2498(32, 2, 24):
             storeValue(2, 45, 0, 1)
@@ -5492,7 +5492,7 @@ def ExKizetsu():
             if (SLOT_45 == 10):
                 Unknown271('03000000770000003200000032000000')
                 Unknown2231(1)
-                Unknown292(10000)
+                meterspend_override(10000)
                 ActivateEffScript('Sorbet_shot', 100)
                 Unknown2315(10)
             if (SLOT_45 > 11):
@@ -6651,7 +6651,7 @@ def CmnActHomingDash():
     callSubroutine('AN_CmnActHomingDash_Face')
     if SLOT_249:
         Unknown1651(1)
-        cancel_autocombo('NmlAtkAir5A')
+        cancel_autocombo_('NmlAtkAir5A')
         Unknown1662('NmlAtkAir5A', 8)
     sprite('xxx038_01', 2)
     sprite('xxx038_02', 2)

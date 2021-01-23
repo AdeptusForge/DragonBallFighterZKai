@@ -543,7 +543,7 @@ def cmn_ReqAssistAttackUltimate2():
 @Subroutine
 def cmnAssistAttackInit():
     Unknown2477()
-    Unknown1117(0)
+    meterbuild_override(0)
     Unknown1051(0)
     Unknown287(1)
     Unknown1058(1)
@@ -744,10 +744,10 @@ def cmnAssist3LastAtk():
     Unknown1974(0)
     Unknown1128(0)
     mod_opphitstop(0, 0, 0)
-    Unknown1117(0)
+    meterbuild_override(0)
     ChangeAtkDir(0)
     damage1(400)
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1095(1000)
     Unknown1051(0)
     airHitPushbackX(15000)
@@ -792,7 +792,7 @@ def cmnRendaChain_Clear_Idling():
 
 @Subroutine
 def cmnSpecialAttackExInit():
-    Unknown1117(0)
+    meterbuild_override(0)
     Unknown1204(1)
     Unknown910(0)
     Unknown296(120)
@@ -800,25 +800,25 @@ def cmnSpecialAttackExInit():
 
     def upon_13():
         Unknown23(13)
-        Unknown292(5000)
+        meterspend_override(5000)
         Unknown448('cmn_EXstart', 103)
         Unknown612('ARC_BTL_SYS_ActSkill_Normal')
 
 @Subroutine
 def cmnSpecialAttackEx_ExeInit():
-    Unknown1117(0)
+    meterbuild_override(0)
     Unknown1204(1)
     Unknown910(0)
 
 @Subroutine
 def cmnSpecialAttackEx_ShotInit():
-    Unknown1117(0)
+    meterbuild_override(0)
     Unknown1204(1)
     Unknown910(0)
 
 @Subroutine
 def cmnSpecialAttackEx_TimeLagShotI():
-    Unknown1117(0)
+    meterbuild_override(0)
     Unknown910(0)
 
 @Subroutine
@@ -947,7 +947,7 @@ def cmnAtkTemplNageDagekiHissori():
     Unknown1019(1)
     damage1(0)
     Unknown1095(0)
-    Unknown1117(0)
+    meterbuild_override(0)
     mod_hitstop(0)
     grHitPushbackX(0)
     Unknown1018(1)
@@ -973,7 +973,7 @@ def cmnAtkTemplNageLand():
     Unknown1019(1)
     damage1(0)
     Unknown1095(0)
-    Unknown1117(0)
+    meterbuild_override(0)
     mod_hitstop(0)
     grHitPushbackX(0)
     Unknown1157(1)
@@ -1001,7 +1001,7 @@ def cmnAtkTemplNageAir():
     Unknown1019(1)
     damage1(0)
     Unknown1095(0)
-    Unknown1117(0)
+    meterbuild_override(0)
     mod_hitstop(0)
     grHitPushbackX(0)
     Unknown1157(1)
@@ -1043,30 +1043,30 @@ def cmn_MutekiArmor():
 
 @Subroutine
 def cmn_AirAtkHosei():
-    Unknown1092(90)
+    initialscaling_override(90)
 
 @Subroutine
 def cmn_JumpATadanHosei():
     damage1(300)
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1143(1)
 
 @Subroutine
 def cmn_JumpBTadanHosei():
     damage1(500)
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1143(1)
 
 @Subroutine
 def cmn_JumpCTadanHosei():
     damage1(650)
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1143(1)
 
 @Subroutine
 def cmn_LandATadanHosei():
     damage1(300)
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1143(1)
 
 @Subroutine
@@ -1076,45 +1076,45 @@ def cmn_LandBTadanHosei():
 
 @Subroutine
 def cmn_GedanHosei():
-    Unknown1092(90)
+    initialscaling_override(90)
 
 @Subroutine
 def cmn_KuzushiHosei():
-    Unknown1092(80)
+    initialscaling_override(80)
 
 @Subroutine
 def cmn_MutekiHosei():
-    Unknown1092(80)
+    initialscaling_override(80)
 
 @Subroutine
 def cmn_ArmorHosei():
-    Unknown1092(90)
+    initialscaling_override(90)
 
 @Subroutine
 def cmn_AssistHosei():
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1095(1000)
-    Unknown1117(0)
+    meterbuild_override(0)
 
 @Subroutine
 def cmn_UltimateHosei():
     Unknown1095(1000)
-    Unknown1117(0)
+    meterbuild_override(0)
 
 @Subroutine
 def cmn_AssistShotHosei():
     if Unknown2033(3, 'AssistAttack'):
-        Unknown1092(90)
+        initialscaling_override(90)
         Unknown1095(1000)
-        Unknown1117(0)
+        meterbuild_override(0)
     if Unknown2033(3, 'AssistAttack2'):
-        Unknown1092(90)
+        initialscaling_override(90)
         Unknown1095(1000)
-        Unknown1117(0)
+        meterbuild_override(0)
     if Unknown2033(3, 'AssistAttack3'):
-        Unknown1092(90)
+        initialscaling_override(90)
         Unknown1095(1000)
-        Unknown1117(0)
+        meterbuild_override(0)
 
 @Subroutine
 def cmnAtkLevel_0_AtkInit():
@@ -1122,9 +1122,9 @@ def cmnAtkLevel_0_AtkInit():
     damage1(300)
     Unknown910(40)
     Unknown1095(500)
-    Unknown1092(100)
+    initialscaling_override(100)
     Unknown1143(0)
-    Unknown1117(500)
+    meterbuild_override(500)
     mod_hitstop(6)
     blockstun_override(11)
     Unknown1024(2)
@@ -1139,9 +1139,9 @@ def cmnAtkLevel_1_AtkInit():
     damage1(400)
     Unknown910(40)
     Unknown1095(500)
-    Unknown1092(100)
+    initialscaling_override(100)
     Unknown1143(0)
-    Unknown1117(500)
+    meterbuild_override(500)
     mod_hitstop(8)
     blockstun_override(11)
     Unknown1024(2)
@@ -1156,9 +1156,9 @@ def cmnAtkLevel_2_AtkInit():
     damage1(700)
     Unknown910(40)
     Unknown1095(500)
-    Unknown1092(100)
+    initialscaling_override(100)
     Unknown1143(0)
-    Unknown1117(700)
+    meterbuild_override(700)
     mod_hitstop(11)
     blockstun_override(15)
     Unknown1024(2)
@@ -1173,9 +1173,9 @@ def cmnAtkLevel_3_AtkInit():
     damage1(850)
     Unknown910(40)
     Unknown1095(500)
-    Unknown1092(100)
+    initialscaling_override(100)
     Unknown1143(0)
-    Unknown1117(1200)
+    meterbuild_override(1200)
     mod_hitstop(14)
     blockstun_override(15)
     Unknown1024(2)
@@ -1190,9 +1190,9 @@ def cmnAtkLevel_4_AtkInit():
     damage1(1000)
     Unknown910(40)
     Unknown1095(500)
-    Unknown1092(100)
+    initialscaling_override(100)
     Unknown1143(0)
-    Unknown1117(1200)
+    meterbuild_override(1200)
     mod_hitstop(16)
     blockstun_override(15)
     Unknown1024(2)
@@ -1206,21 +1206,21 @@ def cmnNormalShot_AtkInit():
     Unknown1028(1)
     damage1(600)
     Unknown1143(1)
-    Unknown1092(90)
-    Unknown1117(600)
+    initialscaling_override(90)
+    meterbuild_override(600)
     mod_hitstop(5)
 
 @Subroutine
 def cmnSpecialShot_AtkInit():
     Unknown1028(3)
-    Unknown1092(90)
-    Unknown1117(1200)
+    initialscaling_override(90)
+    meterbuild_override(1200)
     mod_hitstop(5)
 
 @Subroutine
 def cmnUltimateShot_AtkInit():
     Unknown1028(4)
-    Unknown1117(0)
+    meterbuild_override(0)
     mod_hitstop(5)
     Unknown1095(1000)
     Unknown737(1)
@@ -1314,8 +1314,8 @@ def cmnBDashSpeed():
 def cmn_InitGuardCancelAttack():
     callSubroutine('cmnAtkLevel_2_AtkInit')
     damage2(4)
-    Unknown1092(50)
-    Unknown1117(0)
+    initialscaling_override(50)
+    meterbuild_override(0)
     or_standhit(12)
     or_launchhit(12)
     airHitPushbackX(30000)
@@ -1324,7 +1324,7 @@ def cmn_InitGuardCancelAttack():
     Unknown1118('ARC_BTL_CMN_Hit_Large-A')
     Unknown1119('ARC_BTL_CMN_Guard_Large')
     Unknown296(120)
-    Unknown292(10000)
+    meterspend_override(10000)
     Unknown271('06000000640000000f0000000f000000')
     Unknown1827(1)
     Unknown294(1)
@@ -1496,7 +1496,7 @@ def cmnActMikiwame_AtkInit():
     Unknown1190(1)
     Unknown1027(500000, 0, 500000, -500000)
     Unknown1197(1)
-    Unknown1117(0)
+    meterbuild_override(0)
     Unknown1204(1)
     Unknown296(120)
     Unknown1051(0)
@@ -1674,7 +1674,7 @@ def cmnAtkRushStartInit():
                 Unknown2169(1)
                 Unknown2170(1)
                 Unknown2168(1)
-                Unknown1824(3, 1)
+                landing_override(3, 1)
                 Unknown99(1)
                 Unknown176(1)
                 Unknown135()
@@ -1703,7 +1703,7 @@ def cmnAtkRushRushInit():
     Unknown1139(1)
     Unknown1059(1)
     Unknown1045('010000000000000000000000000000000000000000000000000000000000000000000000')
-    Unknown1117(250)
+    meterbuild_override(250)
     Unknown305()
     damage1(120)
     Unknown1118('dammyName')
@@ -1737,7 +1737,7 @@ def cmnAtkRushFinishChaseInit():
     callSubroutine('cmnAtkTemplNageExe')
     damage1(800)
     Unknown1095(4500)
-    Unknown1117(2500)
+    meterbuild_override(2500)
     or_launchhit(30)
     or_standhit(30)
     mod_hitstop(15)
@@ -1782,7 +1782,7 @@ def cmnActRushFinishChangeInit():
     callSubroutine('cmnAtkLevel_4_AtkInit')
     callSubroutine('cmnAtkTemplNageExe')
     Unknown1095(4500)
-    Unknown1117(400)
+    meterbuild_override(400)
     or_standhit(12)
     or_launchhit(12)
     airHitPushbackX(72000)
@@ -1844,7 +1844,7 @@ def cmnActRushFinishDamageInit():
     callSubroutine('cmnAtkTemplNageExe')
     damage1(500)
     Unknown1095(4500)
-    Unknown1117(400)
+    meterbuild_override(400)
     untech_Override(60)
     Unknown1018(1)
     if SLOT_31:
@@ -1994,8 +1994,8 @@ def cmn_InitHomingDash():
     Unknown1751(18, 20000, 95000, 300, 1500, 80, 80, 0)
     callSubroutine('cmnAtkLevel_2_AtkInit')
     damage1(300)
-    Unknown1092(90)
-    Unknown1117(800)
+    initialscaling_override(90)
+    meterbuild_override(800)
     mod_hitstop(0)
     or_standhit(27)
     or_launchhit(27)
@@ -2016,7 +2016,7 @@ def cmn_InitHomingDash():
     Unknown36(13, 5)
 
     def upon_13():
-        Unknown1824(10, 1)
+        landing_override(10, 1)
 
     def upon_8():
         if SLOT_275:
@@ -2120,8 +2120,8 @@ def cmn_InitHomingDashChange():
     Unknown1751(6, 20000, 90000, 300, 1500, 80, 80, 0)
     callSubroutine('cmnAtkLevel_2_AtkInit')
     damage1(300)
-    Unknown1092(90)
-    Unknown1117(800)
+    initialscaling_override(90)
+    meterbuild_override(800)
     mod_hitstop(0)
     or_standhit(27)
     or_launchhit(27)
@@ -2141,7 +2141,7 @@ def cmn_InitHomingDashChange():
     Unknown36(13, 5)
 
     def upon_13():
-        Unknown1824(10, 1)
+        landing_override(10, 1)
 
     def upon_8():
         if SLOT_275:
@@ -2223,8 +2223,8 @@ def cmn_InitHomingDashGuardCancel():
     Unknown1751(6, 20000, 90000, 300, 1500, 80, 80, 0)
     callSubroutine('cmnAtkLevel_2_AtkInit')
     damage1(300)
-    Unknown1092(50)
-    Unknown1117(0)
+    initialscaling_override(50)
+    meterbuild_override(0)
     mod_hitstop(0)
     or_standhit(27)
     or_launchhit(27)
@@ -2255,7 +2255,7 @@ def cmn_InitHomingDashGuardCancel():
     Unknown36(13, 5)
 
     def upon_13():
-        Unknown1824(10, 1)
+        landing_override(10, 1)
 
     def upon_8():
         if SLOT_275:
@@ -2314,7 +2314,7 @@ def cmn_InitHomingDashGuardCancel():
         physicsImpulseX(-2000)
         physicsImpulseY(42000)
         Unknown127(4000)
-        Unknown1824(10, 1)
+        landing_override(10, 1)
         Unknown1827(0)
 
         def upon_47():
@@ -2330,7 +2330,7 @@ def cmn_InitHomingDashGuardCancel():
         physicsImpulseX(-2000)
         physicsImpulseY(42000)
         Unknown127(4000)
-        Unknown1824(10, 1)
+        landing_override(10, 1)
         Unknown1827(0)
 
         def upon_47():
@@ -2441,7 +2441,7 @@ def cmnSparkingBurst():
         Unknown1128(1)
         Unknown717('ShakeTateYoko', 2500, 5, 20, 5)
         Unknown1045('010000000000000000000000000000000000000000000000000000000000000000000000')
-        Unknown1117(0)
+        meterbuild_override(0)
         Unknown1118('ARC_BTL_CMN_Hit_Large-A')
         Unknown1119('ARC_BTL_CMN_Guard_Beam')
 
@@ -2465,7 +2465,7 @@ def cmnSparkingBurst():
                 Unknown457(0)
                 storeValue(2, 45, 0, 1)
         else:
-            Unknown1092(50)
+            initialscaling_override(50)
             or_standhit(8)
             or_launchhit(8)
             airHitPushbackX(50000)
@@ -2588,7 +2588,7 @@ def cmnHajikiBack():
 @Subroutine
 def cmnNmlAtk5A_AtkInit():
     callSubroutine('cmnAtkLevel_1_AtkInit')
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1143(1)
 
 @Subroutine
@@ -2611,7 +2611,7 @@ def cmnNmlAtk5A3rd_AtkInit():
 @Subroutine
 def cmnNmlAtk2A_AtkInit():
     callSubroutine('cmnAtkLevel_1_AtkInit')
-    Unknown1092(90)
+    initialscaling_override(90)
     Unknown1143(1)
 
 @Subroutine
@@ -2758,7 +2758,7 @@ def cmnNmlAtk5A2nd_Init():
 
 @Subroutine
 def cmnNmlAtk5A3rd_Init():
-    cancel_autocombo('CmnActHomingDash')
+    cancel_autocombo_('CmnActHomingDash')
 
     def upon_89():
         Unknown23(89)
@@ -2842,7 +2842,7 @@ def cmnNmlAtk6B_Init():
         physicsImpulseX(6000)
         physicsImpulseY(14000)
         Unknown127(1000)
-        Unknown1824(6, 1)
+        landing_override(6, 1)
         Unknown2204(1)
         Unknown1975(40000)
 
@@ -3017,7 +3017,7 @@ def cmnNmlAtkAir5A_Init():
             if (not 
             Unknown2030('NmlAtkAir5A')):
                 if conditionalunk2499(32, 2, 318):
-                    cancel_autocombo('NmlAtkAir5B')
+                    cancel_autocombo_('NmlAtkAir5B')
     callSubroutine('cmnAir_F_NO_STOP_IDLING')
 
 @Subroutine
@@ -3032,7 +3032,7 @@ def cmnNmlAtkAir5B_Init():
         cancel_onhitorblock_('CmnActFAirDash2Button')
     if SLOT_249:
         Unknown1658('NmlAtkAir5A')
-        cancel_autocombo('NmlAtkAir5C')
+        cancel_autocombo_('NmlAtkAir5C')
         Unknown240()
         Unknown135()
         if Unknown53(3, 2, 0, 32, 2, 18):
